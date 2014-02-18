@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3A1D5FD3-668F-428F-9B88-5F7AD5431DCF}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>qiniu</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>../../bin/windows/vs2012/x86/debug</OutDir>
+    <IntDir>../../obj/windows/vs2012/x86/debug</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>../../bin/windows/vs2012/x64/debug</OutDir>
+    <IntDir>../../obj/windows/vs2012/x64/debug/$(ProjectName)</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>../../bin/windows/vs2012/x86/release/</OutDir>
+    <IntDir>../../obj/windows/vs2012/x86/release/$(ProjectName)</IntDir>
+    <EmbedManifest>false</EmbedManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>../../bin/windows/vs2012/x64/release/</OutDir>
+    <IntDir>../../obj/windows/vs2012/x64/release/$(ProjectName)</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;CPS_ALL_DYNAMIC_LINK;CPS_ALL_SOURCE;_CRT_SECURE_NO_WARNINGS;_DEBUG;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../3rdParty/include;../../include;../../3rdParty/include/windows;../../../../../3rdLib/include</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4819;4251</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../3rdParty/lib/windows/x86/vs2012/debug</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libcurl_debug.lib;libeay32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;CPS_ALL_DYNAMIC_LINK;CPS_ALL_SOURCE;_CRT_SECURE_NO_WARNINGS;_DEBUG;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../3rdParty/include;../../include;../../3rdParty/include/windows;../../../../../3rdLib/include</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4819;4251</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../3rdParty/lib/windows/x64/vs2012/debug</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libcurl_debug.lib;libeay32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;CPS_ALL_DYNAMIC_LINK;CPS_ALL_SOURCE;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NDEBUG;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../../3rdParty/include;../../include;../../3rdParty/include/windows;../../../../../3rdLib/include</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4819;4251</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>../../3rdParty/lib/windows/x86/vs2012/Release</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libcurl.lib;libeay32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;CPS_ALL_DYNAMIC_LINK;CPS_ALL_SOURCE;_CRT_SECURE_NO_WARNINGS;NDEBUG;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4819;4251</DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>../../3rdParty/include;../../include;../../3rdParty/include/windows;../../../../../3rdLib/include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>../../3rdParty/lib/windows/x64/vs2012/Release</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libcurl.lib;libeay32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\HttpAccess\Curl\CurlHttpBaseClass.cpp" />
+    <ClCompile Include="..\..\src\HttpAccess\Curl\CurlHttpGetBase.cpp" />
+    <ClCompile Include="..\..\src\HttpAccess\Curl\CurlHttpPostBase.cpp" />
+    <ClCompile Include="..\..\src\HttpAccess\Curl\CurlHttpPutBase.cpp" />
+    <ClCompile Include="..\..\src\HttpAccess\Curl\CurlWrapperClass.cpp" />
+    <ClCompile Include="..\..\src\HttpAccess\HttpAccessAuxiliaryStrcut.cpp" />
+    <ClCompile Include="..\..\src\HttpAccess\HttpAccessUtils.cpp" />
+    <ClCompile Include="..\..\src\Log\LogUtils.cpp" />
+    <ClCompile Include="..\..\src\Misc\EncodeAndDecode.cpp" />
+    <ClCompile Include="..\..\src\Misc\FileDefine.cpp" />
+    <ClCompile Include="..\..\src\Misc\TimeStr.cpp" />
+    <ClCompile Include="..\..\src\Qiniu\Http\QiniuCurlPostForm.cpp" />
+    <ClCompile Include="..\..\src\Qiniu\Http\QiniuCurlGet.cpp" />
+    <ClCompile Include="..\..\src\Qiniu\Http\QiniuCurlPost.cpp" />
+    <ClCompile Include="..\..\src\Qiniu\Impl\b64\b64.c" />
+    <ClCompile Include="..\..\src\Qiniu\Impl\b64\urlsafe_b64.c" />
+    <ClCompile Include="..\..\src\Qiniu\Impl\IUpLoadProgressDecoration.cpp" />
+    <ClCompile Include="..\..\src\Qiniu\Impl\QiniuMisc.cpp" />
+    <ClCompile Include="..\..\src\Qiniu\Impl\QiniuRemoteBatchFilesImpl.cpp" />
+    <ClCompile Include="..\..\src\Qiniu\Impl\QiniuUploadFileImpl.cpp" />
+    <ClCompile Include="..\..\src\Qiniu\Json\jsoncpp.cpp" />
+    <ClCompile Include="..\..\src\Qiniu\QiniuDestoryFunction.cpp" />
+    <ClCompile Include="..\..\src\Qiniu\Impl\QiniuRemoteFileImpl.cpp" />
+    <ClCompile Include="..\..\src\Qiniu\QiniuFactory.cpp" />
+    <ClCompile Include="..\..\src\Qiniu\QiniuStrcut.cpp" />
+    <ClCompile Include="..\..\src\Qiniu\QiniuUtils.cpp" />
+    <ClCompile Include="..\..\src\WindowsDllMain.cpp" />
+    <ClCompile Include="..\..\src\WorkThread\IDestoryFunction.cpp" />
+    <ClCompile Include="..\..\src\WorkThread\WorkThreadBaseClass.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\Config\CompilerConfig.h" />
+    <ClInclude Include="..\..\include\Config\Compiler\ClangConfig.h" />
+    <ClInclude Include="..\..\include\Config\Compiler\EdgConfig.h" />
+    <ClInclude Include="..\..\include\Config\Compiler\GccConfig.h" />
+    <ClInclude Include="..\..\include\Config\Compiler\IntelCppConfig.h" />
+    <ClInclude Include="..\..\include\Config\Compiler\MSVCConfig.h" />
+    <ClInclude Include="..\..\include\Config\Config.h" />
+    <ClInclude Include="..\..\include\Config\FunctionMacro.h" />
+    <ClInclude Include="..\..\include\Config\PlatformConfig.h" />
+    <ClInclude Include="..\..\include\Config\Platform\AndroidConfig.h" />
+    <ClInclude Include="..\..\include\Config\Platform\CygwinConfig.h" />
+    <ClInclude Include="..\..\include\Config\Platform\LinuxConfig.h" />
+    <ClInclude Include="..\..\include\Config\Platform\MacOSConfig.h" />
+    <ClInclude Include="..\..\include\Config\Platform\OS32or64Bits.h" />
+    <ClInclude Include="..\..\include\Config\Platform\POSIXConfig.h" />
+    <ClInclude Include="..\..\include\Config\Platform\Win32Config.h" />
+    <ClInclude Include="..\..\include\Config\StdLibConfig.h" />
+    <ClInclude Include="..\..\include\Config\StdLib\LibCppConfig.h" />
+    <ClInclude Include="..\..\include\Config\StdLib\LibDinkumwareConfig.h" />
+    <ClInclude Include="..\..\include\Config\StdLib\LibStdCppConfig.h" />
+    <ClInclude Include="..\..\include\Config\StdLib\STLPortConfig.h" />
+    <ClInclude Include="..\..\include\Config\Suffix.h" />
+    <ClInclude Include="..\..\include\Config\UserConfig.h" />
+    <ClInclude Include="..\..\include\HttpAccess\HttpAccess.h" />
+    <ClInclude Include="..\..\include\HttpAccess\HttpAccessAuxiliaryStrcut.h" />
+    <ClInclude Include="..\..\include\HttpAccess\HttpAccessConfig.h" />
+    <ClInclude Include="..\..\include\HttpAccess\HttpAccessError.h" />
+    <ClInclude Include="..\..\include\HttpAccess\HttpAccessUtils.h" />
+    <ClInclude Include="..\..\include\Log\Log.h" />
+    <ClInclude Include="..\..\include\Log\LogConfig.h" />
+    <ClInclude Include="..\..\include\Log\LogError.h" />
+    <ClInclude Include="..\..\include\Log\LogUtils.h" />
+    <ClInclude Include="..\..\include\Misc\EncodeAndDecode.h" />
+    <ClInclude Include="..\..\include\Misc\FileDefine.h" />
+    <ClInclude Include="..\..\include\Misc\Misc.h" />
+    <ClInclude Include="..\..\include\Misc\MiscConfig.h" />
+    <ClInclude Include="..\..\include\Misc\TimeStr.h" />
+    <ClInclude Include="..\..\include\Qiniu\IHttpSetting.h" />
+    <ClInclude Include="..\..\include\Qiniu\IQiniuRemoteBatchFiles.h" />
+    <ClInclude Include="..\..\include\Qiniu\IQiniuRemoteFile.h" />
+    <ClInclude Include="..\..\include\Qiniu\IThreadProgress.h" />
+    <ClInclude Include="..\..\include\Qiniu\IUpLoadProgress.h" />
+    <ClInclude Include="..\..\include\Qiniu\Qiniu.h" />
+    <ClInclude Include="..\..\include\Qiniu\QiniuConfig.h" />
+    <ClInclude Include="..\..\include\Qiniu\QiniuError.h" />
+    <ClInclude Include="..\..\include\Qiniu\QiniuFactory.h" />
+    <ClInclude Include="..\..\include\Qiniu\QiniuStrcut.h" />
+    <ClInclude Include="..\..\include\Qiniu\QiniuUtils.h" />
+    <ClInclude Include="..\..\include\WorkThread\IThreadControl.h" />
+    <ClInclude Include="..\..\include\WorkThread\IThreadResponsePoints.h" />
+    <ClInclude Include="..\..\include\WorkThread\WorkThread.h" />
+    <ClInclude Include="..\..\include\WorkThread\WorkThreadBaseClass.h" />
+    <ClInclude Include="..\..\include\WorkThread\WorkThreadConfig.h" />
+    <ClInclude Include="..\..\include\WorkThread\WorkThreadError.h" />
+    <ClInclude Include="..\..\src\HttpAccess\Curl\CurlHttpBaseClass.h" />
+    <ClInclude Include="..\..\src\HttpAccess\Curl\CurlHttpGetBase.h" />
+    <ClInclude Include="..\..\src\HttpAccess\Curl\CurlHttpPostBase.h" />
+    <ClInclude Include="..\..\src\HttpAccess\Curl\CurlHttpPutBase.h" />
+    <ClInclude Include="..\..\src\HttpAccess\Curl\CurlWrapperClass.h" />
+    <ClInclude Include="..\..\src\HttpAccess\Curl\CurlWrapperConfig.h" />
+    <ClInclude Include="..\..\src\Qiniu\Http\QiniuCurlPostForm.h" />
+    <ClInclude Include="..\..\src\Qiniu\Http\QiniuCurlGet.h" />
+    <ClInclude Include="..\..\src\Qiniu\Http\QiniuCurlPost.h" />
+    <ClInclude Include="..\..\src\Qiniu\Impl\b64\b64.h" />
+    <ClInclude Include="..\..\src\Qiniu\Impl\b64\urlsafe_b64.h" />
+    <ClInclude Include="..\..\src\Qiniu\Impl\IUpLoadProgressDecoration.h" />
+    <ClInclude Include="..\..\src\Qiniu\Impl\QiniuRemoteBatchFilesImpl.h" />
+    <ClInclude Include="..\..\src\Qiniu\Impl\QiniuRemoteFileImpl.h" />
+    <ClInclude Include="..\..\src\Qiniu\Impl\QiniuMisc.h" />
+    <ClInclude Include="..\..\src\Qiniu\Impl\QiniuUploadFileImpl.h" />
+    <ClInclude Include="..\..\src\Qiniu\Json\json-forwards.h" />
+    <ClInclude Include="..\..\src\Qiniu\Json\json.h" />
+    <ClInclude Include="..\..\src\Qiniu\QiniuInternalConfig.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

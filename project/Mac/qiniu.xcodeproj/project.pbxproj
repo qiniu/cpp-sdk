@@ -1,0 +1,963 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBDCA76D18B2091700E1AED6 /* UploadCallBack.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA76818B2091700E1AED6 /* UploadCallBack.h */; };
+		CBDCA76E18B2092A00E1AED6 /* IQiniuRemoteBatchFilesTestCase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBDCA76418B2091700E1AED6 /* IQiniuRemoteBatchFilesTestCase.cpp */; };
+		CBDCA76F18B2092A00E1AED6 /* IQiniuRemoteFileTestCase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBDCA76518B2091700E1AED6 /* IQiniuRemoteFileTestCase.cpp */; };
+		CBDCA77018B2092A00E1AED6 /* LogTestCase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBDCA76618B2091700E1AED6 /* LogTestCase.cpp */; };
+		CBDCA77118B2092A00E1AED6 /* UploadCallBack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBDCA76718B2091700E1AED6 /* UploadCallBack.cpp */; };
+		CBDCA77218B2092A00E1AED6 /* UploadCallBack.h in Sources */ = {isa = PBXBuildFile; fileRef = CBDCA76818B2091700E1AED6 /* UploadCallBack.h */; };
+		CBDCA7B018B2095700E1AED6 /* CurlHttpBaseClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBDCA77818B2095700E1AED6 /* CurlHttpBaseClass.cpp */; };
+		CBDCA7B118B2095700E1AED6 /* CurlHttpBaseClass.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA77918B2095700E1AED6 /* CurlHttpBaseClass.h */; };
+		CBDCA7B218B2095700E1AED6 /* CurlHttpGetBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBDCA77A18B2095700E1AED6 /* CurlHttpGetBase.cpp */; };
+		CBDCA7B318B2095700E1AED6 /* CurlHttpGetBase.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA77B18B2095700E1AED6 /* CurlHttpGetBase.h */; };
+		CBDCA7B418B2095700E1AED6 /* CurlHttpPostBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBDCA77C18B2095700E1AED6 /* CurlHttpPostBase.cpp */; };
+		CBDCA7B518B2095700E1AED6 /* CurlHttpPostBase.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA77D18B2095700E1AED6 /* CurlHttpPostBase.h */; };
+		CBDCA7B618B2095700E1AED6 /* CurlHttpPutBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBDCA77E18B2095700E1AED6 /* CurlHttpPutBase.cpp */; };
+		CBDCA7B718B2095700E1AED6 /* CurlHttpPutBase.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA77F18B2095700E1AED6 /* CurlHttpPutBase.h */; };
+		CBDCA7B818B2095700E1AED6 /* CurlWrapperClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBDCA78018B2095700E1AED6 /* CurlWrapperClass.cpp */; };
+		CBDCA7B918B2095700E1AED6 /* CurlWrapperClass.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA78118B2095700E1AED6 /* CurlWrapperClass.h */; };
+		CBDCA7BA18B2095700E1AED6 /* CurlWrapperConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA78218B2095700E1AED6 /* CurlWrapperConfig.h */; };
+		CBDCA7BB18B2095700E1AED6 /* HttpAccessAuxiliaryStrcut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBDCA78318B2095700E1AED6 /* HttpAccessAuxiliaryStrcut.cpp */; };
+		CBDCA7BC18B2095700E1AED6 /* HttpAccessUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBDCA78418B2095700E1AED6 /* HttpAccessUtils.cpp */; };
+		CBDCA7BD18B2095700E1AED6 /* LogUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBDCA78618B2095700E1AED6 /* LogUtils.cpp */; };
+		CBDCA7BE18B2095700E1AED6 /* EncodeAndDecode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBDCA78818B2095700E1AED6 /* EncodeAndDecode.cpp */; };
+		CBDCA7BF18B2095700E1AED6 /* FileDefine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBDCA78918B2095700E1AED6 /* FileDefine.cpp */; };
+		CBDCA7C018B2095700E1AED6 /* TimeStr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBDCA78A18B2095700E1AED6 /* TimeStr.cpp */; };
+		CBDCA7C118B2095700E1AED6 /* QiniuCurlGet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBDCA78D18B2095700E1AED6 /* QiniuCurlGet.cpp */; };
+		CBDCA7C218B2095700E1AED6 /* QiniuCurlGet.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA78E18B2095700E1AED6 /* QiniuCurlGet.h */; };
+		CBDCA7C318B2095700E1AED6 /* QiniuCurlPost.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBDCA78F18B2095700E1AED6 /* QiniuCurlPost.cpp */; };
+		CBDCA7C418B2095700E1AED6 /* QiniuCurlPost.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA79018B2095700E1AED6 /* QiniuCurlPost.h */; };
+		CBDCA7C518B2095700E1AED6 /* QiniuCurlPostForm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBDCA79118B2095700E1AED6 /* QiniuCurlPostForm.cpp */; };
+		CBDCA7C618B2095700E1AED6 /* QiniuCurlPostForm.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA79218B2095700E1AED6 /* QiniuCurlPostForm.h */; };
+		CBDCA7C718B2095700E1AED6 /* b64.c in Sources */ = {isa = PBXBuildFile; fileRef = CBDCA79518B2095700E1AED6 /* b64.c */; };
+		CBDCA7C818B2095700E1AED6 /* b64.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA79618B2095700E1AED6 /* b64.h */; };
+		CBDCA7C918B2095700E1AED6 /* urlsafe_b64.c in Sources */ = {isa = PBXBuildFile; fileRef = CBDCA79718B2095700E1AED6 /* urlsafe_b64.c */; };
+		CBDCA7CA18B2095700E1AED6 /* urlsafe_b64.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA79818B2095700E1AED6 /* urlsafe_b64.h */; };
+		CBDCA7CB18B2095700E1AED6 /* IUpLoadProgressDecoration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBDCA79918B2095700E1AED6 /* IUpLoadProgressDecoration.cpp */; };
+		CBDCA7CC18B2095700E1AED6 /* IUpLoadProgressDecoration.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA79A18B2095700E1AED6 /* IUpLoadProgressDecoration.h */; };
+		CBDCA7CD18B2095700E1AED6 /* QiniuMisc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBDCA79B18B2095700E1AED6 /* QiniuMisc.cpp */; };
+		CBDCA7CE18B2095700E1AED6 /* QiniuMisc.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA79C18B2095700E1AED6 /* QiniuMisc.h */; };
+		CBDCA7CF18B2095700E1AED6 /* QiniuRemoteBatchFilesImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBDCA79D18B2095700E1AED6 /* QiniuRemoteBatchFilesImpl.cpp */; };
+		CBDCA7D018B2095700E1AED6 /* QiniuRemoteBatchFilesImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA79E18B2095700E1AED6 /* QiniuRemoteBatchFilesImpl.h */; };
+		CBDCA7D118B2095700E1AED6 /* QiniuRemoteFileImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBDCA79F18B2095700E1AED6 /* QiniuRemoteFileImpl.cpp */; };
+		CBDCA7D218B2095700E1AED6 /* QiniuRemoteFileImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA7A018B2095700E1AED6 /* QiniuRemoteFileImpl.h */; };
+		CBDCA7D318B2095700E1AED6 /* QiniuUploadFileImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBDCA7A118B2095700E1AED6 /* QiniuUploadFileImpl.cpp */; };
+		CBDCA7D418B2095700E1AED6 /* QiniuUploadFileImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA7A218B2095700E1AED6 /* QiniuUploadFileImpl.h */; };
+		CBDCA7D518B2095700E1AED6 /* json-forwards.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA7A418B2095700E1AED6 /* json-forwards.h */; };
+		CBDCA7D618B2095700E1AED6 /* json.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA7A518B2095700E1AED6 /* json.h */; };
+		CBDCA7D718B2095700E1AED6 /* jsoncpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBDCA7A618B2095700E1AED6 /* jsoncpp.cpp */; };
+		CBDCA7D818B2095700E1AED6 /* QiniuDestoryFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBDCA7A718B2095700E1AED6 /* QiniuDestoryFunction.cpp */; };
+		CBDCA7D918B2095700E1AED6 /* QiniuFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBDCA7A818B2095700E1AED6 /* QiniuFactory.cpp */; };
+		CBDCA7DA18B2095700E1AED6 /* QiniuInternalConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA7A918B2095700E1AED6 /* QiniuInternalConfig.h */; };
+		CBDCA7DB18B2095700E1AED6 /* QiniuStrcut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBDCA7AA18B2095700E1AED6 /* QiniuStrcut.cpp */; };
+		CBDCA7DC18B2095700E1AED6 /* QiniuUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBDCA7AB18B2095700E1AED6 /* QiniuUtils.cpp */; };
+		CBDCA7DD18B2095700E1AED6 /* WindowsDllMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBDCA7AC18B2095700E1AED6 /* WindowsDllMain.cpp */; };
+		CBDCA7DE18B2095700E1AED6 /* IDestoryFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBDCA7AE18B2095700E1AED6 /* IDestoryFunction.cpp */; };
+		CBDCA7DF18B2095700E1AED6 /* WorkThreadBaseClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBDCA7AF18B2095700E1AED6 /* WorkThreadBaseClass.cpp */; };
+		CBDCA82018B2096E00E1AED6 /* ClangConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA7E218B2096E00E1AED6 /* ClangConfig.h */; };
+		CBDCA82118B2096E00E1AED6 /* EdgConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA7E318B2096E00E1AED6 /* EdgConfig.h */; };
+		CBDCA82218B2096E00E1AED6 /* GccConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA7E418B2096E00E1AED6 /* GccConfig.h */; };
+		CBDCA82318B2096E00E1AED6 /* IntelCppConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA7E518B2096E00E1AED6 /* IntelCppConfig.h */; };
+		CBDCA82418B2096E00E1AED6 /* MSVCConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA7E618B2096E00E1AED6 /* MSVCConfig.h */; };
+		CBDCA82518B2096E00E1AED6 /* CompilerConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA7E718B2096E00E1AED6 /* CompilerConfig.h */; };
+		CBDCA82618B2096E00E1AED6 /* Config.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA7E818B2096E00E1AED6 /* Config.h */; };
+		CBDCA82718B2096E00E1AED6 /* FunctionMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA7E918B2096E00E1AED6 /* FunctionMacro.h */; };
+		CBDCA82818B2096E00E1AED6 /* AndroidConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA7EB18B2096E00E1AED6 /* AndroidConfig.h */; };
+		CBDCA82918B2096E00E1AED6 /* CygwinConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA7EC18B2096E00E1AED6 /* CygwinConfig.h */; };
+		CBDCA82A18B2096E00E1AED6 /* LinuxConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA7ED18B2096E00E1AED6 /* LinuxConfig.h */; };
+		CBDCA82B18B2096E00E1AED6 /* MacOSConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA7EE18B2096E00E1AED6 /* MacOSConfig.h */; };
+		CBDCA82C18B2096E00E1AED6 /* OS32or64Bits.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA7EF18B2096E00E1AED6 /* OS32or64Bits.h */; };
+		CBDCA82D18B2096E00E1AED6 /* POSIXConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA7F018B2096E00E1AED6 /* POSIXConfig.h */; };
+		CBDCA82E18B2096E00E1AED6 /* Win32Config.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA7F118B2096E00E1AED6 /* Win32Config.h */; };
+		CBDCA82F18B2096E00E1AED6 /* PlatformConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA7F218B2096E00E1AED6 /* PlatformConfig.h */; };
+		CBDCA83018B2096E00E1AED6 /* LibCppConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA7F418B2096E00E1AED6 /* LibCppConfig.h */; };
+		CBDCA83118B2096E00E1AED6 /* LibDinkumwareConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA7F518B2096E00E1AED6 /* LibDinkumwareConfig.h */; };
+		CBDCA83218B2096E00E1AED6 /* LibStdCppConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA7F618B2096E00E1AED6 /* LibStdCppConfig.h */; };
+		CBDCA83318B2096E00E1AED6 /* STLPortConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA7F718B2096E00E1AED6 /* STLPortConfig.h */; };
+		CBDCA83418B2096E00E1AED6 /* StdLibConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA7F818B2096E00E1AED6 /* StdLibConfig.h */; };
+		CBDCA83518B2096E00E1AED6 /* Suffix.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA7F918B2096E00E1AED6 /* Suffix.h */; };
+		CBDCA83618B2096E00E1AED6 /* UserConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA7FA18B2096E00E1AED6 /* UserConfig.h */; };
+		CBDCA83718B2096E00E1AED6 /* HttpAccess.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA7FC18B2096E00E1AED6 /* HttpAccess.h */; };
+		CBDCA83818B2096E00E1AED6 /* HttpAccessAuxiliaryStrcut.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA7FD18B2096E00E1AED6 /* HttpAccessAuxiliaryStrcut.h */; };
+		CBDCA83918B2096E00E1AED6 /* HttpAccessConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA7FE18B2096E00E1AED6 /* HttpAccessConfig.h */; };
+		CBDCA83A18B2096E00E1AED6 /* HttpAccessError.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA7FF18B2096E00E1AED6 /* HttpAccessError.h */; };
+		CBDCA83B18B2096E00E1AED6 /* HttpAccessUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA80018B2096E00E1AED6 /* HttpAccessUtils.h */; };
+		CBDCA83C18B2096E00E1AED6 /* Log.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA80218B2096E00E1AED6 /* Log.h */; };
+		CBDCA83D18B2096E00E1AED6 /* LogConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA80318B2096E00E1AED6 /* LogConfig.h */; };
+		CBDCA83E18B2096E00E1AED6 /* LogError.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA80418B2096E00E1AED6 /* LogError.h */; };
+		CBDCA83F18B2096E00E1AED6 /* LogUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA80518B2096E00E1AED6 /* LogUtils.h */; };
+		CBDCA84018B2096E00E1AED6 /* EncodeAndDecode.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA80718B2096E00E1AED6 /* EncodeAndDecode.h */; };
+		CBDCA84118B2096E00E1AED6 /* FileDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA80818B2096E00E1AED6 /* FileDefine.h */; };
+		CBDCA84218B2096E00E1AED6 /* Misc.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA80918B2096E00E1AED6 /* Misc.h */; };
+		CBDCA84318B2096E00E1AED6 /* MiscConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA80A18B2096E00E1AED6 /* MiscConfig.h */; };
+		CBDCA84418B2096E00E1AED6 /* TimeStr.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA80B18B2096E00E1AED6 /* TimeStr.h */; };
+		CBDCA84518B2096E00E1AED6 /* IHttpSetting.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA80D18B2096E00E1AED6 /* IHttpSetting.h */; };
+		CBDCA84618B2096E00E1AED6 /* IQiniuRemoteBatchFiles.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA80E18B2096E00E1AED6 /* IQiniuRemoteBatchFiles.h */; };
+		CBDCA84718B2096E00E1AED6 /* IQiniuRemoteFile.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA80F18B2096E00E1AED6 /* IQiniuRemoteFile.h */; };
+		CBDCA84818B2096E00E1AED6 /* IQiniuUploadFile.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA81018B2096E00E1AED6 /* IQiniuUploadFile.h */; };
+		CBDCA84918B2096E00E1AED6 /* IThreadProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA81118B2096E00E1AED6 /* IThreadProgress.h */; };
+		CBDCA84A18B2096E00E1AED6 /* IUpLoadProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA81218B2096E00E1AED6 /* IUpLoadProgress.h */; };
+		CBDCA84B18B2096E00E1AED6 /* Qiniu.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA81318B2096E00E1AED6 /* Qiniu.h */; };
+		CBDCA84C18B2096E00E1AED6 /* QiniuConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA81418B2096E00E1AED6 /* QiniuConfig.h */; };
+		CBDCA84D18B2096E00E1AED6 /* QiniuError.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA81518B2096E00E1AED6 /* QiniuError.h */; };
+		CBDCA84E18B2096E00E1AED6 /* QiniuFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA81618B2096E00E1AED6 /* QiniuFactory.h */; };
+		CBDCA84F18B2096E00E1AED6 /* QiniuStrcut.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA81718B2096E00E1AED6 /* QiniuStrcut.h */; };
+		CBDCA85018B2096E00E1AED6 /* QiniuUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA81818B2096E00E1AED6 /* QiniuUtils.h */; };
+		CBDCA85118B2096E00E1AED6 /* IThreadControl.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA81A18B2096E00E1AED6 /* IThreadControl.h */; };
+		CBDCA85218B2096E00E1AED6 /* IThreadResponsePoints.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA81B18B2096E00E1AED6 /* IThreadResponsePoints.h */; };
+		CBDCA85318B2096E00E1AED6 /* WorkThread.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA81C18B2096E00E1AED6 /* WorkThread.h */; };
+		CBDCA85418B2096E00E1AED6 /* WorkThreadBaseClass.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA81D18B2096E00E1AED6 /* WorkThreadBaseClass.h */; };
+		CBDCA85518B2096E00E1AED6 /* WorkThreadConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA81E18B2096E00E1AED6 /* WorkThreadConfig.h */; };
+		CBDCA85618B2096E00E1AED6 /* WorkThreadError.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDCA81F18B2096E00E1AED6 /* WorkThreadError.h */; };
+		CBDCA85718B209F900E1AED6 /* libqiniu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBDCA74E18B2085400E1AED6 /* libqiniu.a */; };
+		CBDCA85918B20A7D00E1AED6 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CBDCA85818B20A7D00E1AED6 /* libcrypto.dylib */; };
+		CBDCA85B18B20A8300E1AED6 /* libcurl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CBDCA85A18B20A8300E1AED6 /* libcurl.dylib */; };
+		CBDCA85D18B20A8A00E1AED6 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CBDCA85C18B20A8A00E1AED6 /* libz.dylib */; };
+		CBDCA86018B20AA400E1AED6 /* libgtest_main.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBDCA85E18B20AA400E1AED6 /* libgtest_main.a */; };
+		CBDCA86118B20AA400E1AED6 /* libgtest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBDCA85F18B20AA400E1AED6 /* libgtest.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CBDCA75718B2088900E1AED6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CBDCA74E18B2085400E1AED6 /* libqiniu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libqiniu.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBDCA75918B2088900E1AED6 /* qiniuUnitTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = qiniuUnitTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBDCA76418B2091700E1AED6 /* IQiniuRemoteBatchFilesTestCase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IQiniuRemoteBatchFilesTestCase.cpp; path = ../../unittest/src/IQiniuRemoteBatchFilesTestCase.cpp; sourceTree = "<group>"; };
+		CBDCA76518B2091700E1AED6 /* IQiniuRemoteFileTestCase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = IQiniuRemoteFileTestCase.cpp; path = ../../unittest/src/IQiniuRemoteFileTestCase.cpp; sourceTree = "<group>"; };
+		CBDCA76618B2091700E1AED6 /* LogTestCase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LogTestCase.cpp; path = ../../unittest/src/LogTestCase.cpp; sourceTree = "<group>"; };
+		CBDCA76718B2091700E1AED6 /* UploadCallBack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = UploadCallBack.cpp; path = ../../unittest/src/UploadCallBack.cpp; sourceTree = "<group>"; };
+		CBDCA76818B2091700E1AED6 /* UploadCallBack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UploadCallBack.h; path = ../../unittest/src/UploadCallBack.h; sourceTree = "<group>"; };
+		CBDCA77818B2095700E1AED6 /* CurlHttpBaseClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CurlHttpBaseClass.cpp; sourceTree = "<group>"; };
+		CBDCA77918B2095700E1AED6 /* CurlHttpBaseClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurlHttpBaseClass.h; sourceTree = "<group>"; };
+		CBDCA77A18B2095700E1AED6 /* CurlHttpGetBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CurlHttpGetBase.cpp; sourceTree = "<group>"; };
+		CBDCA77B18B2095700E1AED6 /* CurlHttpGetBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurlHttpGetBase.h; sourceTree = "<group>"; };
+		CBDCA77C18B2095700E1AED6 /* CurlHttpPostBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CurlHttpPostBase.cpp; sourceTree = "<group>"; };
+		CBDCA77D18B2095700E1AED6 /* CurlHttpPostBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurlHttpPostBase.h; sourceTree = "<group>"; };
+		CBDCA77E18B2095700E1AED6 /* CurlHttpPutBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CurlHttpPutBase.cpp; sourceTree = "<group>"; };
+		CBDCA77F18B2095700E1AED6 /* CurlHttpPutBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurlHttpPutBase.h; sourceTree = "<group>"; };
+		CBDCA78018B2095700E1AED6 /* CurlWrapperClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CurlWrapperClass.cpp; sourceTree = "<group>"; };
+		CBDCA78118B2095700E1AED6 /* CurlWrapperClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurlWrapperClass.h; sourceTree = "<group>"; };
+		CBDCA78218B2095700E1AED6 /* CurlWrapperConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurlWrapperConfig.h; sourceTree = "<group>"; };
+		CBDCA78318B2095700E1AED6 /* HttpAccessAuxiliaryStrcut.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HttpAccessAuxiliaryStrcut.cpp; sourceTree = "<group>"; };
+		CBDCA78418B2095700E1AED6 /* HttpAccessUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HttpAccessUtils.cpp; sourceTree = "<group>"; };
+		CBDCA78618B2095700E1AED6 /* LogUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LogUtils.cpp; sourceTree = "<group>"; };
+		CBDCA78818B2095700E1AED6 /* EncodeAndDecode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EncodeAndDecode.cpp; sourceTree = "<group>"; };
+		CBDCA78918B2095700E1AED6 /* FileDefine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FileDefine.cpp; sourceTree = "<group>"; };
+		CBDCA78A18B2095700E1AED6 /* TimeStr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TimeStr.cpp; sourceTree = "<group>"; };
+		CBDCA78D18B2095700E1AED6 /* QiniuCurlGet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QiniuCurlGet.cpp; sourceTree = "<group>"; };
+		CBDCA78E18B2095700E1AED6 /* QiniuCurlGet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiniuCurlGet.h; sourceTree = "<group>"; };
+		CBDCA78F18B2095700E1AED6 /* QiniuCurlPost.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QiniuCurlPost.cpp; sourceTree = "<group>"; };
+		CBDCA79018B2095700E1AED6 /* QiniuCurlPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiniuCurlPost.h; sourceTree = "<group>"; };
+		CBDCA79118B2095700E1AED6 /* QiniuCurlPostForm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QiniuCurlPostForm.cpp; sourceTree = "<group>"; };
+		CBDCA79218B2095700E1AED6 /* QiniuCurlPostForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiniuCurlPostForm.h; sourceTree = "<group>"; };
+		CBDCA79518B2095700E1AED6 /* b64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = b64.c; sourceTree = "<group>"; };
+		CBDCA79618B2095700E1AED6 /* b64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b64.h; sourceTree = "<group>"; };
+		CBDCA79718B2095700E1AED6 /* urlsafe_b64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = urlsafe_b64.c; sourceTree = "<group>"; };
+		CBDCA79818B2095700E1AED6 /* urlsafe_b64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = urlsafe_b64.h; sourceTree = "<group>"; };
+		CBDCA79918B2095700E1AED6 /* IUpLoadProgressDecoration.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IUpLoadProgressDecoration.cpp; sourceTree = "<group>"; };
+		CBDCA79A18B2095700E1AED6 /* IUpLoadProgressDecoration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IUpLoadProgressDecoration.h; sourceTree = "<group>"; };
+		CBDCA79B18B2095700E1AED6 /* QiniuMisc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QiniuMisc.cpp; sourceTree = "<group>"; };
+		CBDCA79C18B2095700E1AED6 /* QiniuMisc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiniuMisc.h; sourceTree = "<group>"; };
+		CBDCA79D18B2095700E1AED6 /* QiniuRemoteBatchFilesImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QiniuRemoteBatchFilesImpl.cpp; sourceTree = "<group>"; };
+		CBDCA79E18B2095700E1AED6 /* QiniuRemoteBatchFilesImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiniuRemoteBatchFilesImpl.h; sourceTree = "<group>"; };
+		CBDCA79F18B2095700E1AED6 /* QiniuRemoteFileImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QiniuRemoteFileImpl.cpp; sourceTree = "<group>"; };
+		CBDCA7A018B2095700E1AED6 /* QiniuRemoteFileImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiniuRemoteFileImpl.h; sourceTree = "<group>"; };
+		CBDCA7A118B2095700E1AED6 /* QiniuUploadFileImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QiniuUploadFileImpl.cpp; sourceTree = "<group>"; };
+		CBDCA7A218B2095700E1AED6 /* QiniuUploadFileImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiniuUploadFileImpl.h; sourceTree = "<group>"; };
+		CBDCA7A418B2095700E1AED6 /* json-forwards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "json-forwards.h"; sourceTree = "<group>"; };
+		CBDCA7A518B2095700E1AED6 /* json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = json.h; sourceTree = "<group>"; };
+		CBDCA7A618B2095700E1AED6 /* jsoncpp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jsoncpp.cpp; sourceTree = "<group>"; };
+		CBDCA7A718B2095700E1AED6 /* QiniuDestoryFunction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QiniuDestoryFunction.cpp; sourceTree = "<group>"; };
+		CBDCA7A818B2095700E1AED6 /* QiniuFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QiniuFactory.cpp; sourceTree = "<group>"; };
+		CBDCA7A918B2095700E1AED6 /* QiniuInternalConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiniuInternalConfig.h; sourceTree = "<group>"; };
+		CBDCA7AA18B2095700E1AED6 /* QiniuStrcut.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QiniuStrcut.cpp; sourceTree = "<group>"; };
+		CBDCA7AB18B2095700E1AED6 /* QiniuUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QiniuUtils.cpp; sourceTree = "<group>"; };
+		CBDCA7AC18B2095700E1AED6 /* WindowsDllMain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WindowsDllMain.cpp; path = ../../src/WindowsDllMain.cpp; sourceTree = "<group>"; };
+		CBDCA7AE18B2095700E1AED6 /* IDestoryFunction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IDestoryFunction.cpp; sourceTree = "<group>"; };
+		CBDCA7AF18B2095700E1AED6 /* WorkThreadBaseClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WorkThreadBaseClass.cpp; sourceTree = "<group>"; };
+		CBDCA7E218B2096E00E1AED6 /* ClangConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClangConfig.h; sourceTree = "<group>"; };
+		CBDCA7E318B2096E00E1AED6 /* EdgConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EdgConfig.h; sourceTree = "<group>"; };
+		CBDCA7E418B2096E00E1AED6 /* GccConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GccConfig.h; sourceTree = "<group>"; };
+		CBDCA7E518B2096E00E1AED6 /* IntelCppConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntelCppConfig.h; sourceTree = "<group>"; };
+		CBDCA7E618B2096E00E1AED6 /* MSVCConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSVCConfig.h; sourceTree = "<group>"; };
+		CBDCA7E718B2096E00E1AED6 /* CompilerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompilerConfig.h; sourceTree = "<group>"; };
+		CBDCA7E818B2096E00E1AED6 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		CBDCA7E918B2096E00E1AED6 /* FunctionMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunctionMacro.h; sourceTree = "<group>"; };
+		CBDCA7EB18B2096E00E1AED6 /* AndroidConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AndroidConfig.h; sourceTree = "<group>"; };
+		CBDCA7EC18B2096E00E1AED6 /* CygwinConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CygwinConfig.h; sourceTree = "<group>"; };
+		CBDCA7ED18B2096E00E1AED6 /* LinuxConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinuxConfig.h; sourceTree = "<group>"; };
+		CBDCA7EE18B2096E00E1AED6 /* MacOSConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacOSConfig.h; sourceTree = "<group>"; };
+		CBDCA7EF18B2096E00E1AED6 /* OS32or64Bits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OS32or64Bits.h; sourceTree = "<group>"; };
+		CBDCA7F018B2096E00E1AED6 /* POSIXConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POSIXConfig.h; sourceTree = "<group>"; };
+		CBDCA7F118B2096E00E1AED6 /* Win32Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Win32Config.h; sourceTree = "<group>"; };
+		CBDCA7F218B2096E00E1AED6 /* PlatformConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlatformConfig.h; sourceTree = "<group>"; };
+		CBDCA7F418B2096E00E1AED6 /* LibCppConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibCppConfig.h; sourceTree = "<group>"; };
+		CBDCA7F518B2096E00E1AED6 /* LibDinkumwareConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibDinkumwareConfig.h; sourceTree = "<group>"; };
+		CBDCA7F618B2096E00E1AED6 /* LibStdCppConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibStdCppConfig.h; sourceTree = "<group>"; };
+		CBDCA7F718B2096E00E1AED6 /* STLPortConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLPortConfig.h; sourceTree = "<group>"; };
+		CBDCA7F818B2096E00E1AED6 /* StdLibConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StdLibConfig.h; sourceTree = "<group>"; };
+		CBDCA7F918B2096E00E1AED6 /* Suffix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Suffix.h; sourceTree = "<group>"; };
+		CBDCA7FA18B2096E00E1AED6 /* UserConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserConfig.h; sourceTree = "<group>"; };
+		CBDCA7FC18B2096E00E1AED6 /* HttpAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpAccess.h; sourceTree = "<group>"; };
+		CBDCA7FD18B2096E00E1AED6 /* HttpAccessAuxiliaryStrcut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpAccessAuxiliaryStrcut.h; sourceTree = "<group>"; };
+		CBDCA7FE18B2096E00E1AED6 /* HttpAccessConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpAccessConfig.h; sourceTree = "<group>"; };
+		CBDCA7FF18B2096E00E1AED6 /* HttpAccessError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpAccessError.h; sourceTree = "<group>"; };
+		CBDCA80018B2096E00E1AED6 /* HttpAccessUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpAccessUtils.h; sourceTree = "<group>"; };
+		CBDCA80218B2096E00E1AED6 /* Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Log.h; sourceTree = "<group>"; };
+		CBDCA80318B2096E00E1AED6 /* LogConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogConfig.h; sourceTree = "<group>"; };
+		CBDCA80418B2096E00E1AED6 /* LogError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogError.h; sourceTree = "<group>"; };
+		CBDCA80518B2096E00E1AED6 /* LogUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogUtils.h; sourceTree = "<group>"; };
+		CBDCA80718B2096E00E1AED6 /* EncodeAndDecode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncodeAndDecode.h; sourceTree = "<group>"; };
+		CBDCA80818B2096E00E1AED6 /* FileDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileDefine.h; sourceTree = "<group>"; };
+		CBDCA80918B2096E00E1AED6 /* Misc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Misc.h; sourceTree = "<group>"; };
+		CBDCA80A18B2096E00E1AED6 /* MiscConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiscConfig.h; sourceTree = "<group>"; };
+		CBDCA80B18B2096E00E1AED6 /* TimeStr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeStr.h; sourceTree = "<group>"; };
+		CBDCA80D18B2096E00E1AED6 /* IHttpSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHttpSetting.h; sourceTree = "<group>"; };
+		CBDCA80E18B2096E00E1AED6 /* IQiniuRemoteBatchFiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQiniuRemoteBatchFiles.h; sourceTree = "<group>"; };
+		CBDCA80F18B2096E00E1AED6 /* IQiniuRemoteFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQiniuRemoteFile.h; sourceTree = "<group>"; };
+		CBDCA81018B2096E00E1AED6 /* IQiniuUploadFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQiniuUploadFile.h; sourceTree = "<group>"; };
+		CBDCA81118B2096E00E1AED6 /* IThreadProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IThreadProgress.h; sourceTree = "<group>"; };
+		CBDCA81218B2096E00E1AED6 /* IUpLoadProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IUpLoadProgress.h; sourceTree = "<group>"; };
+		CBDCA81318B2096E00E1AED6 /* Qiniu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Qiniu.h; sourceTree = "<group>"; };
+		CBDCA81418B2096E00E1AED6 /* QiniuConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiniuConfig.h; sourceTree = "<group>"; };
+		CBDCA81518B2096E00E1AED6 /* QiniuError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiniuError.h; sourceTree = "<group>"; };
+		CBDCA81618B2096E00E1AED6 /* QiniuFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiniuFactory.h; sourceTree = "<group>"; };
+		CBDCA81718B2096E00E1AED6 /* QiniuStrcut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiniuStrcut.h; sourceTree = "<group>"; };
+		CBDCA81818B2096E00E1AED6 /* QiniuUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiniuUtils.h; sourceTree = "<group>"; };
+		CBDCA81A18B2096E00E1AED6 /* IThreadControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IThreadControl.h; sourceTree = "<group>"; };
+		CBDCA81B18B2096E00E1AED6 /* IThreadResponsePoints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IThreadResponsePoints.h; sourceTree = "<group>"; };
+		CBDCA81C18B2096E00E1AED6 /* WorkThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkThread.h; sourceTree = "<group>"; };
+		CBDCA81D18B2096E00E1AED6 /* WorkThreadBaseClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkThreadBaseClass.h; sourceTree = "<group>"; };
+		CBDCA81E18B2096E00E1AED6 /* WorkThreadConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkThreadConfig.h; sourceTree = "<group>"; };
+		CBDCA81F18B2096E00E1AED6 /* WorkThreadError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkThreadError.h; sourceTree = "<group>"; };
+		CBDCA85818B20A7D00E1AED6 /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = usr/lib/libcrypto.dylib; sourceTree = SDKROOT; };
+		CBDCA85A18B20A8300E1AED6 /* libcurl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcurl.dylib; path = usr/lib/libcurl.dylib; sourceTree = SDKROOT; };
+		CBDCA85C18B20A8A00E1AED6 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		CBDCA85E18B20AA400E1AED6 /* libgtest_main.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgtest_main.a; path = ../../../../../../usr/local/lib/libgtest_main.a; sourceTree = "<group>"; };
+		CBDCA85F18B20AA400E1AED6 /* libgtest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgtest.a; path = ../../../../../../usr/local/lib/libgtest.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBDCA74B18B2085400E1AED6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBDCA75618B2088900E1AED6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBDCA86018B20AA400E1AED6 /* libgtest_main.a in Frameworks */,
+				CBDCA86118B20AA400E1AED6 /* libgtest.a in Frameworks */,
+				CBDCA85D18B20A8A00E1AED6 /* libz.dylib in Frameworks */,
+				CBDCA85B18B20A8300E1AED6 /* libcurl.dylib in Frameworks */,
+				CBDCA85918B20A7D00E1AED6 /* libcrypto.dylib in Frameworks */,
+				CBDCA85718B209F900E1AED6 /* libqiniu.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBDCA74518B2085400E1AED6 = {
+			isa = PBXGroup;
+			children = (
+				CBDCA85E18B20AA400E1AED6 /* libgtest_main.a */,
+				CBDCA85F18B20AA400E1AED6 /* libgtest.a */,
+				CBDCA85C18B20A8A00E1AED6 /* libz.dylib */,
+				CBDCA85A18B20A8300E1AED6 /* libcurl.dylib */,
+				CBDCA85818B20A7D00E1AED6 /* libcrypto.dylib */,
+				CBDCA77318B2093F00E1AED6 /* qiniu */,
+				CBDCA76218B208F500E1AED6 /* qiniuUnitTest */,
+				CBDCA74F18B2085400E1AED6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBDCA74F18B2085400E1AED6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBDCA74E18B2085400E1AED6 /* libqiniu.a */,
+				CBDCA75918B2088900E1AED6 /* qiniuUnitTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBDCA76218B208F500E1AED6 /* qiniuUnitTest */ = {
+			isa = PBXGroup;
+			children = (
+				CBDCA76318B2090100E1AED6 /* src */,
+			);
+			name = qiniuUnitTest;
+			sourceTree = "<group>";
+		};
+		CBDCA76318B2090100E1AED6 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				CBDCA76418B2091700E1AED6 /* IQiniuRemoteBatchFilesTestCase.cpp */,
+				CBDCA76518B2091700E1AED6 /* IQiniuRemoteFileTestCase.cpp */,
+				CBDCA76618B2091700E1AED6 /* LogTestCase.cpp */,
+				CBDCA76718B2091700E1AED6 /* UploadCallBack.cpp */,
+				CBDCA76818B2091700E1AED6 /* UploadCallBack.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		CBDCA77318B2093F00E1AED6 /* qiniu */ = {
+			isa = PBXGroup;
+			children = (
+				CBDCA77518B2094A00E1AED6 /* header */,
+				CBDCA77418B2094500E1AED6 /* src */,
+			);
+			name = qiniu;
+			sourceTree = "<group>";
+		};
+		CBDCA77418B2094500E1AED6 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				CBDCA77618B2095700E1AED6 /* HttpAccess */,
+				CBDCA78518B2095700E1AED6 /* Log */,
+				CBDCA78718B2095700E1AED6 /* Misc */,
+				CBDCA78B18B2095700E1AED6 /* Qiniu */,
+				CBDCA7AC18B2095700E1AED6 /* WindowsDllMain.cpp */,
+				CBDCA7AD18B2095700E1AED6 /* WorkThread */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		CBDCA77518B2094A00E1AED6 /* header */ = {
+			isa = PBXGroup;
+			children = (
+				CBDCA7E018B2096E00E1AED6 /* Config */,
+				CBDCA7FB18B2096E00E1AED6 /* HttpAccess */,
+				CBDCA80118B2096E00E1AED6 /* Log */,
+				CBDCA80618B2096E00E1AED6 /* Misc */,
+				CBDCA80C18B2096E00E1AED6 /* Qiniu */,
+				CBDCA81918B2096E00E1AED6 /* WorkThread */,
+			);
+			name = header;
+			sourceTree = "<group>";
+		};
+		CBDCA77618B2095700E1AED6 /* HttpAccess */ = {
+			isa = PBXGroup;
+			children = (
+				CBDCA77718B2095700E1AED6 /* Curl */,
+				CBDCA78318B2095700E1AED6 /* HttpAccessAuxiliaryStrcut.cpp */,
+				CBDCA78418B2095700E1AED6 /* HttpAccessUtils.cpp */,
+			);
+			name = HttpAccess;
+			path = ../../src/HttpAccess;
+			sourceTree = "<group>";
+		};
+		CBDCA77718B2095700E1AED6 /* Curl */ = {
+			isa = PBXGroup;
+			children = (
+				CBDCA77818B2095700E1AED6 /* CurlHttpBaseClass.cpp */,
+				CBDCA77918B2095700E1AED6 /* CurlHttpBaseClass.h */,
+				CBDCA77A18B2095700E1AED6 /* CurlHttpGetBase.cpp */,
+				CBDCA77B18B2095700E1AED6 /* CurlHttpGetBase.h */,
+				CBDCA77C18B2095700E1AED6 /* CurlHttpPostBase.cpp */,
+				CBDCA77D18B2095700E1AED6 /* CurlHttpPostBase.h */,
+				CBDCA77E18B2095700E1AED6 /* CurlHttpPutBase.cpp */,
+				CBDCA77F18B2095700E1AED6 /* CurlHttpPutBase.h */,
+				CBDCA78018B2095700E1AED6 /* CurlWrapperClass.cpp */,
+				CBDCA78118B2095700E1AED6 /* CurlWrapperClass.h */,
+				CBDCA78218B2095700E1AED6 /* CurlWrapperConfig.h */,
+			);
+			path = Curl;
+			sourceTree = "<group>";
+		};
+		CBDCA78518B2095700E1AED6 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				CBDCA78618B2095700E1AED6 /* LogUtils.cpp */,
+			);
+			name = Log;
+			path = ../../src/Log;
+			sourceTree = "<group>";
+		};
+		CBDCA78718B2095700E1AED6 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				CBDCA78818B2095700E1AED6 /* EncodeAndDecode.cpp */,
+				CBDCA78918B2095700E1AED6 /* FileDefine.cpp */,
+				CBDCA78A18B2095700E1AED6 /* TimeStr.cpp */,
+			);
+			name = Misc;
+			path = ../../src/Misc;
+			sourceTree = "<group>";
+		};
+		CBDCA78B18B2095700E1AED6 /* Qiniu */ = {
+			isa = PBXGroup;
+			children = (
+				CBDCA78C18B2095700E1AED6 /* Http */,
+				CBDCA79318B2095700E1AED6 /* Impl */,
+				CBDCA7A318B2095700E1AED6 /* Json */,
+				CBDCA7A718B2095700E1AED6 /* QiniuDestoryFunction.cpp */,
+				CBDCA7A818B2095700E1AED6 /* QiniuFactory.cpp */,
+				CBDCA7A918B2095700E1AED6 /* QiniuInternalConfig.h */,
+				CBDCA7AA18B2095700E1AED6 /* QiniuStrcut.cpp */,
+				CBDCA7AB18B2095700E1AED6 /* QiniuUtils.cpp */,
+			);
+			name = Qiniu;
+			path = ../../src/Qiniu;
+			sourceTree = "<group>";
+		};
+		CBDCA78C18B2095700E1AED6 /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				CBDCA78D18B2095700E1AED6 /* QiniuCurlGet.cpp */,
+				CBDCA78E18B2095700E1AED6 /* QiniuCurlGet.h */,
+				CBDCA78F18B2095700E1AED6 /* QiniuCurlPost.cpp */,
+				CBDCA79018B2095700E1AED6 /* QiniuCurlPost.h */,
+				CBDCA79118B2095700E1AED6 /* QiniuCurlPostForm.cpp */,
+				CBDCA79218B2095700E1AED6 /* QiniuCurlPostForm.h */,
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
+		CBDCA79318B2095700E1AED6 /* Impl */ = {
+			isa = PBXGroup;
+			children = (
+				CBDCA79418B2095700E1AED6 /* b64 */,
+				CBDCA79918B2095700E1AED6 /* IUpLoadProgressDecoration.cpp */,
+				CBDCA79A18B2095700E1AED6 /* IUpLoadProgressDecoration.h */,
+				CBDCA79B18B2095700E1AED6 /* QiniuMisc.cpp */,
+				CBDCA79C18B2095700E1AED6 /* QiniuMisc.h */,
+				CBDCA79D18B2095700E1AED6 /* QiniuRemoteBatchFilesImpl.cpp */,
+				CBDCA79E18B2095700E1AED6 /* QiniuRemoteBatchFilesImpl.h */,
+				CBDCA79F18B2095700E1AED6 /* QiniuRemoteFileImpl.cpp */,
+				CBDCA7A018B2095700E1AED6 /* QiniuRemoteFileImpl.h */,
+				CBDCA7A118B2095700E1AED6 /* QiniuUploadFileImpl.cpp */,
+				CBDCA7A218B2095700E1AED6 /* QiniuUploadFileImpl.h */,
+			);
+			path = Impl;
+			sourceTree = "<group>";
+		};
+		CBDCA79418B2095700E1AED6 /* b64 */ = {
+			isa = PBXGroup;
+			children = (
+				CBDCA79518B2095700E1AED6 /* b64.c */,
+				CBDCA79618B2095700E1AED6 /* b64.h */,
+				CBDCA79718B2095700E1AED6 /* urlsafe_b64.c */,
+				CBDCA79818B2095700E1AED6 /* urlsafe_b64.h */,
+			);
+			path = b64;
+			sourceTree = "<group>";
+		};
+		CBDCA7A318B2095700E1AED6 /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				CBDCA7A418B2095700E1AED6 /* json-forwards.h */,
+				CBDCA7A518B2095700E1AED6 /* json.h */,
+				CBDCA7A618B2095700E1AED6 /* jsoncpp.cpp */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		CBDCA7AD18B2095700E1AED6 /* WorkThread */ = {
+			isa = PBXGroup;
+			children = (
+				CBDCA7AE18B2095700E1AED6 /* IDestoryFunction.cpp */,
+				CBDCA7AF18B2095700E1AED6 /* WorkThreadBaseClass.cpp */,
+			);
+			name = WorkThread;
+			path = ../../src/WorkThread;
+			sourceTree = "<group>";
+		};
+		CBDCA7E018B2096E00E1AED6 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				CBDCA7E118B2096E00E1AED6 /* Compiler */,
+				CBDCA7E718B2096E00E1AED6 /* CompilerConfig.h */,
+				CBDCA7E818B2096E00E1AED6 /* Config.h */,
+				CBDCA7E918B2096E00E1AED6 /* FunctionMacro.h */,
+				CBDCA7EA18B2096E00E1AED6 /* Platform */,
+				CBDCA7F218B2096E00E1AED6 /* PlatformConfig.h */,
+				CBDCA7F318B2096E00E1AED6 /* StdLib */,
+				CBDCA7F818B2096E00E1AED6 /* StdLibConfig.h */,
+				CBDCA7F918B2096E00E1AED6 /* Suffix.h */,
+				CBDCA7FA18B2096E00E1AED6 /* UserConfig.h */,
+			);
+			name = Config;
+			path = ../../include/Config;
+			sourceTree = "<group>";
+		};
+		CBDCA7E118B2096E00E1AED6 /* Compiler */ = {
+			isa = PBXGroup;
+			children = (
+				CBDCA7E218B2096E00E1AED6 /* ClangConfig.h */,
+				CBDCA7E318B2096E00E1AED6 /* EdgConfig.h */,
+				CBDCA7E418B2096E00E1AED6 /* GccConfig.h */,
+				CBDCA7E518B2096E00E1AED6 /* IntelCppConfig.h */,
+				CBDCA7E618B2096E00E1AED6 /* MSVCConfig.h */,
+			);
+			path = Compiler;
+			sourceTree = "<group>";
+		};
+		CBDCA7EA18B2096E00E1AED6 /* Platform */ = {
+			isa = PBXGroup;
+			children = (
+				CBDCA7EB18B2096E00E1AED6 /* AndroidConfig.h */,
+				CBDCA7EC18B2096E00E1AED6 /* CygwinConfig.h */,
+				CBDCA7ED18B2096E00E1AED6 /* LinuxConfig.h */,
+				CBDCA7EE18B2096E00E1AED6 /* MacOSConfig.h */,
+				CBDCA7EF18B2096E00E1AED6 /* OS32or64Bits.h */,
+				CBDCA7F018B2096E00E1AED6 /* POSIXConfig.h */,
+				CBDCA7F118B2096E00E1AED6 /* Win32Config.h */,
+			);
+			path = Platform;
+			sourceTree = "<group>";
+		};
+		CBDCA7F318B2096E00E1AED6 /* StdLib */ = {
+			isa = PBXGroup;
+			children = (
+				CBDCA7F418B2096E00E1AED6 /* LibCppConfig.h */,
+				CBDCA7F518B2096E00E1AED6 /* LibDinkumwareConfig.h */,
+				CBDCA7F618B2096E00E1AED6 /* LibStdCppConfig.h */,
+				CBDCA7F718B2096E00E1AED6 /* STLPortConfig.h */,
+			);
+			path = StdLib;
+			sourceTree = "<group>";
+		};
+		CBDCA7FB18B2096E00E1AED6 /* HttpAccess */ = {
+			isa = PBXGroup;
+			children = (
+				CBDCA7FC18B2096E00E1AED6 /* HttpAccess.h */,
+				CBDCA7FD18B2096E00E1AED6 /* HttpAccessAuxiliaryStrcut.h */,
+				CBDCA7FE18B2096E00E1AED6 /* HttpAccessConfig.h */,
+				CBDCA7FF18B2096E00E1AED6 /* HttpAccessError.h */,
+				CBDCA80018B2096E00E1AED6 /* HttpAccessUtils.h */,
+			);
+			name = HttpAccess;
+			path = ../../include/HttpAccess;
+			sourceTree = "<group>";
+		};
+		CBDCA80118B2096E00E1AED6 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				CBDCA80218B2096E00E1AED6 /* Log.h */,
+				CBDCA80318B2096E00E1AED6 /* LogConfig.h */,
+				CBDCA80418B2096E00E1AED6 /* LogError.h */,
+				CBDCA80518B2096E00E1AED6 /* LogUtils.h */,
+			);
+			name = Log;
+			path = ../../include/Log;
+			sourceTree = "<group>";
+		};
+		CBDCA80618B2096E00E1AED6 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				CBDCA80718B2096E00E1AED6 /* EncodeAndDecode.h */,
+				CBDCA80818B2096E00E1AED6 /* FileDefine.h */,
+				CBDCA80918B2096E00E1AED6 /* Misc.h */,
+				CBDCA80A18B2096E00E1AED6 /* MiscConfig.h */,
+				CBDCA80B18B2096E00E1AED6 /* TimeStr.h */,
+			);
+			name = Misc;
+			path = ../../include/Misc;
+			sourceTree = "<group>";
+		};
+		CBDCA80C18B2096E00E1AED6 /* Qiniu */ = {
+			isa = PBXGroup;
+			children = (
+				CBDCA80D18B2096E00E1AED6 /* IHttpSetting.h */,
+				CBDCA80E18B2096E00E1AED6 /* IQiniuRemoteBatchFiles.h */,
+				CBDCA80F18B2096E00E1AED6 /* IQiniuRemoteFile.h */,
+				CBDCA81018B2096E00E1AED6 /* IQiniuUploadFile.h */,
+				CBDCA81118B2096E00E1AED6 /* IThreadProgress.h */,
+				CBDCA81218B2096E00E1AED6 /* IUpLoadProgress.h */,
+				CBDCA81318B2096E00E1AED6 /* Qiniu.h */,
+				CBDCA81418B2096E00E1AED6 /* QiniuConfig.h */,
+				CBDCA81518B2096E00E1AED6 /* QiniuError.h */,
+				CBDCA81618B2096E00E1AED6 /* QiniuFactory.h */,
+				CBDCA81718B2096E00E1AED6 /* QiniuStrcut.h */,
+				CBDCA81818B2096E00E1AED6 /* QiniuUtils.h */,
+			);
+			name = Qiniu;
+			path = ../../include/Qiniu;
+			sourceTree = "<group>";
+		};
+		CBDCA81918B2096E00E1AED6 /* WorkThread */ = {
+			isa = PBXGroup;
+			children = (
+				CBDCA81A18B2096E00E1AED6 /* IThreadControl.h */,
+				CBDCA81B18B2096E00E1AED6 /* IThreadResponsePoints.h */,
+				CBDCA81C18B2096E00E1AED6 /* WorkThread.h */,
+				CBDCA81D18B2096E00E1AED6 /* WorkThreadBaseClass.h */,
+				CBDCA81E18B2096E00E1AED6 /* WorkThreadConfig.h */,
+				CBDCA81F18B2096E00E1AED6 /* WorkThreadError.h */,
+			);
+			name = WorkThread;
+			path = ../../include/WorkThread;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CBDCA74C18B2085400E1AED6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBDCA7D518B2095700E1AED6 /* json-forwards.h in Headers */,
+				CBDCA7C818B2095700E1AED6 /* b64.h in Headers */,
+				CBDCA7C218B2095700E1AED6 /* QiniuCurlGet.h in Headers */,
+				CBDCA7BA18B2095700E1AED6 /* CurlWrapperConfig.h in Headers */,
+				CBDCA82218B2096E00E1AED6 /* GccConfig.h in Headers */,
+				CBDCA82F18B2096E00E1AED6 /* PlatformConfig.h in Headers */,
+				CBDCA83618B2096E00E1AED6 /* UserConfig.h in Headers */,
+				CBDCA7D018B2095700E1AED6 /* QiniuRemoteBatchFilesImpl.h in Headers */,
+				CBDCA7CC18B2095700E1AED6 /* IUpLoadProgressDecoration.h in Headers */,
+				CBDCA7D618B2095700E1AED6 /* json.h in Headers */,
+				CBDCA85418B2096E00E1AED6 /* WorkThreadBaseClass.h in Headers */,
+				CBDCA82A18B2096E00E1AED6 /* LinuxConfig.h in Headers */,
+				CBDCA84718B2096E00E1AED6 /* IQiniuRemoteFile.h in Headers */,
+				CBDCA7B318B2095700E1AED6 /* CurlHttpGetBase.h in Headers */,
+				CBDCA85318B2096E00E1AED6 /* WorkThread.h in Headers */,
+				CBDCA84018B2096E00E1AED6 /* EncodeAndDecode.h in Headers */,
+				CBDCA85118B2096E00E1AED6 /* IThreadControl.h in Headers */,
+				CBDCA83E18B2096E00E1AED6 /* LogError.h in Headers */,
+				CBDCA82E18B2096E00E1AED6 /* Win32Config.h in Headers */,
+				CBDCA82618B2096E00E1AED6 /* Config.h in Headers */,
+				CBDCA7CE18B2095700E1AED6 /* QiniuMisc.h in Headers */,
+				CBDCA82B18B2096E00E1AED6 /* MacOSConfig.h in Headers */,
+				CBDCA84918B2096E00E1AED6 /* IThreadProgress.h in Headers */,
+				CBDCA83718B2096E00E1AED6 /* HttpAccess.h in Headers */,
+				CBDCA7CA18B2095700E1AED6 /* urlsafe_b64.h in Headers */,
+				CBDCA84618B2096E00E1AED6 /* IQiniuRemoteBatchFiles.h in Headers */,
+				CBDCA84218B2096E00E1AED6 /* Misc.h in Headers */,
+				CBDCA84E18B2096E00E1AED6 /* QiniuFactory.h in Headers */,
+				CBDCA82518B2096E00E1AED6 /* CompilerConfig.h in Headers */,
+				CBDCA83218B2096E00E1AED6 /* LibStdCppConfig.h in Headers */,
+				CBDCA82318B2096E00E1AED6 /* IntelCppConfig.h in Headers */,
+				CBDCA83518B2096E00E1AED6 /* Suffix.h in Headers */,
+				CBDCA7B918B2095700E1AED6 /* CurlWrapperClass.h in Headers */,
+				CBDCA83A18B2096E00E1AED6 /* HttpAccessError.h in Headers */,
+				CBDCA7B118B2095700E1AED6 /* CurlHttpBaseClass.h in Headers */,
+				CBDCA83418B2096E00E1AED6 /* StdLibConfig.h in Headers */,
+				CBDCA83F18B2096E00E1AED6 /* LogUtils.h in Headers */,
+				CBDCA84418B2096E00E1AED6 /* TimeStr.h in Headers */,
+				CBDCA7C418B2095700E1AED6 /* QiniuCurlPost.h in Headers */,
+				CBDCA84B18B2096E00E1AED6 /* Qiniu.h in Headers */,
+				CBDCA83118B2096E00E1AED6 /* LibDinkumwareConfig.h in Headers */,
+				CBDCA82718B2096E00E1AED6 /* FunctionMacro.h in Headers */,
+				CBDCA7B718B2095700E1AED6 /* CurlHttpPutBase.h in Headers */,
+				CBDCA7D418B2095700E1AED6 /* QiniuUploadFileImpl.h in Headers */,
+				CBDCA82D18B2096E00E1AED6 /* POSIXConfig.h in Headers */,
+				CBDCA76D18B2091700E1AED6 /* UploadCallBack.h in Headers */,
+				CBDCA84818B2096E00E1AED6 /* IQiniuUploadFile.h in Headers */,
+				CBDCA7DA18B2095700E1AED6 /* QiniuInternalConfig.h in Headers */,
+				CBDCA82118B2096E00E1AED6 /* EdgConfig.h in Headers */,
+				CBDCA7B518B2095700E1AED6 /* CurlHttpPostBase.h in Headers */,
+				CBDCA84118B2096E00E1AED6 /* FileDefine.h in Headers */,
+				CBDCA7C618B2095700E1AED6 /* QiniuCurlPostForm.h in Headers */,
+				CBDCA82018B2096E00E1AED6 /* ClangConfig.h in Headers */,
+				CBDCA85218B2096E00E1AED6 /* IThreadResponsePoints.h in Headers */,
+				CBDCA84F18B2096E00E1AED6 /* QiniuStrcut.h in Headers */,
+				CBDCA83018B2096E00E1AED6 /* LibCppConfig.h in Headers */,
+				CBDCA82818B2096E00E1AED6 /* AndroidConfig.h in Headers */,
+				CBDCA84C18B2096E00E1AED6 /* QiniuConfig.h in Headers */,
+				CBDCA83318B2096E00E1AED6 /* STLPortConfig.h in Headers */,
+				CBDCA83D18B2096E00E1AED6 /* LogConfig.h in Headers */,
+				CBDCA84D18B2096E00E1AED6 /* QiniuError.h in Headers */,
+				CBDCA85518B2096E00E1AED6 /* WorkThreadConfig.h in Headers */,
+				CBDCA82C18B2096E00E1AED6 /* OS32or64Bits.h in Headers */,
+				CBDCA84518B2096E00E1AED6 /* IHttpSetting.h in Headers */,
+				CBDCA85618B2096E00E1AED6 /* WorkThreadError.h in Headers */,
+				CBDCA84A18B2096E00E1AED6 /* IUpLoadProgress.h in Headers */,
+				CBDCA83B18B2096E00E1AED6 /* HttpAccessUtils.h in Headers */,
+				CBDCA83818B2096E00E1AED6 /* HttpAccessAuxiliaryStrcut.h in Headers */,
+				CBDCA83918B2096E00E1AED6 /* HttpAccessConfig.h in Headers */,
+				CBDCA83C18B2096E00E1AED6 /* Log.h in Headers */,
+				CBDCA84318B2096E00E1AED6 /* MiscConfig.h in Headers */,
+				CBDCA85018B2096E00E1AED6 /* QiniuUtils.h in Headers */,
+				CBDCA7D218B2095700E1AED6 /* QiniuRemoteFileImpl.h in Headers */,
+				CBDCA82418B2096E00E1AED6 /* MSVCConfig.h in Headers */,
+				CBDCA82918B2096E00E1AED6 /* CygwinConfig.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CBDCA74D18B2085400E1AED6 /* qiniu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBDCA75218B2085400E1AED6 /* Build configuration list for PBXNativeTarget "qiniu" */;
+			buildPhases = (
+				CBDCA74A18B2085400E1AED6 /* Sources */,
+				CBDCA74B18B2085400E1AED6 /* Frameworks */,
+				CBDCA74C18B2085400E1AED6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = qiniu;
+			productName = qiniu;
+			productReference = CBDCA74E18B2085400E1AED6 /* libqiniu.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CBDCA75818B2088900E1AED6 /* qiniuUnitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBDCA75F18B2088900E1AED6 /* Build configuration list for PBXNativeTarget "qiniuUnitTest" */;
+			buildPhases = (
+				CBDCA75518B2088900E1AED6 /* Sources */,
+				CBDCA75618B2088900E1AED6 /* Frameworks */,
+				CBDCA75718B2088900E1AED6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = qiniuUnitTest;
+			productName = qiniuUnitTest;
+			productReference = CBDCA75918B2088900E1AED6 /* qiniuUnitTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBDCA74618B2085400E1AED6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Xiaotao Wang";
+			};
+			buildConfigurationList = CBDCA74918B2085400E1AED6 /* Build configuration list for PBXProject "qiniu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CBDCA74518B2085400E1AED6;
+			productRefGroup = CBDCA74F18B2085400E1AED6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBDCA74D18B2085400E1AED6 /* qiniu */,
+				CBDCA75818B2088900E1AED6 /* qiniuUnitTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBDCA74A18B2085400E1AED6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBDCA7CD18B2095700E1AED6 /* QiniuMisc.cpp in Sources */,
+				CBDCA7BE18B2095700E1AED6 /* EncodeAndDecode.cpp in Sources */,
+				CBDCA7C118B2095700E1AED6 /* QiniuCurlGet.cpp in Sources */,
+				CBDCA7DF18B2095700E1AED6 /* WorkThreadBaseClass.cpp in Sources */,
+				CBDCA7BD18B2095700E1AED6 /* LogUtils.cpp in Sources */,
+				CBDCA7C018B2095700E1AED6 /* TimeStr.cpp in Sources */,
+				CBDCA7DB18B2095700E1AED6 /* QiniuStrcut.cpp in Sources */,
+				CBDCA7C318B2095700E1AED6 /* QiniuCurlPost.cpp in Sources */,
+				CBDCA7BF18B2095700E1AED6 /* FileDefine.cpp in Sources */,
+				CBDCA7D718B2095700E1AED6 /* jsoncpp.cpp in Sources */,
+				CBDCA7B818B2095700E1AED6 /* CurlWrapperClass.cpp in Sources */,
+				CBDCA7DE18B2095700E1AED6 /* IDestoryFunction.cpp in Sources */,
+				CBDCA7D118B2095700E1AED6 /* QiniuRemoteFileImpl.cpp in Sources */,
+				CBDCA7B018B2095700E1AED6 /* CurlHttpBaseClass.cpp in Sources */,
+				CBDCA7B218B2095700E1AED6 /* CurlHttpGetBase.cpp in Sources */,
+				CBDCA7B618B2095700E1AED6 /* CurlHttpPutBase.cpp in Sources */,
+				CBDCA7D818B2095700E1AED6 /* QiniuDestoryFunction.cpp in Sources */,
+				CBDCA7B418B2095700E1AED6 /* CurlHttpPostBase.cpp in Sources */,
+				CBDCA7DD18B2095700E1AED6 /* WindowsDllMain.cpp in Sources */,
+				CBDCA7C918B2095700E1AED6 /* urlsafe_b64.c in Sources */,
+				CBDCA7CB18B2095700E1AED6 /* IUpLoadProgressDecoration.cpp in Sources */,
+				CBDCA7D318B2095700E1AED6 /* QiniuUploadFileImpl.cpp in Sources */,
+				CBDCA7BB18B2095700E1AED6 /* HttpAccessAuxiliaryStrcut.cpp in Sources */,
+				CBDCA7DC18B2095700E1AED6 /* QiniuUtils.cpp in Sources */,
+				CBDCA7C718B2095700E1AED6 /* b64.c in Sources */,
+				CBDCA7C518B2095700E1AED6 /* QiniuCurlPostForm.cpp in Sources */,
+				CBDCA7CF18B2095700E1AED6 /* QiniuRemoteBatchFilesImpl.cpp in Sources */,
+				CBDCA7BC18B2095700E1AED6 /* HttpAccessUtils.cpp in Sources */,
+				CBDCA7D918B2095700E1AED6 /* QiniuFactory.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBDCA75518B2088900E1AED6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBDCA76E18B2092A00E1AED6 /* IQiniuRemoteBatchFilesTestCase.cpp in Sources */,
+				CBDCA76F18B2092A00E1AED6 /* IQiniuRemoteFileTestCase.cpp in Sources */,
+				CBDCA77018B2092A00E1AED6 /* LogTestCase.cpp in Sources */,
+				CBDCA77118B2092A00E1AED6 /* UploadCallBack.cpp in Sources */,
+				CBDCA77218B2092A00E1AED6 /* UploadCallBack.h in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CBDCA75018B2085400E1AED6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+					../../include,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CBDCA75118B2085400E1AED6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include,
+					../../include,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CBDCA75318B2085400E1AED6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CBDCA75418B2085400E1AED6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CBDCA76018B2088900E1AED6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CBDCA76118B2088900E1AED6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBDCA74918B2085400E1AED6 /* Build configuration list for PBXProject "qiniu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBDCA75018B2085400E1AED6 /* Debug */,
+				CBDCA75118B2085400E1AED6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBDCA75218B2085400E1AED6 /* Build configuration list for PBXNativeTarget "qiniu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBDCA75318B2085400E1AED6 /* Debug */,
+				CBDCA75418B2085400E1AED6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBDCA75F18B2088900E1AED6 /* Build configuration list for PBXNativeTarget "qiniuUnitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBDCA76018B2088900E1AED6 /* Debug */,
+				CBDCA76118B2088900E1AED6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBDCA74618B2085400E1AED6 /* Project object */;
+}

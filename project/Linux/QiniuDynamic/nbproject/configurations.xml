@@ -1,0 +1,1190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="90">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="Config" displayName="Config" projectFiles="true">
+        <logicalFolder name="Compiler" displayName="Compiler" projectFiles="true">
+          <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/Config/Compiler/ClangConfig.h</itemPath>
+          <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/Config/Compiler/EdgConfig.h</itemPath>
+          <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/Config/Compiler/GccConfig.h</itemPath>
+          <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/Config/Compiler/IntelCppConfig.h</itemPath>
+          <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/Config/Compiler/MSVCConfig.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="Platform" displayName="Platform" projectFiles="true">
+          <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/Config/Platform/AndroidConfig.h</itemPath>
+          <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/Config/Platform/CygwinConfig.h</itemPath>
+          <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/Config/Platform/LinuxConfig.h</itemPath>
+          <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/Config/Platform/MacOSConfig.h</itemPath>
+          <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/Config/Platform/OS32or64Bits.h</itemPath>
+          <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/Config/Platform/POSIXConfig.h</itemPath>
+          <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/Config/Platform/Win32Config.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="StdLib" displayName="StdLib" projectFiles="true">
+          <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/Config/StdLib/LibCppConfig.h</itemPath>
+          <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/Config/StdLib/LibDinkumwareConfig.h</itemPath>
+          <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/Config/StdLib/LibStdCppConfig.h</itemPath>
+          <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/Config/StdLib/STLPortConfig.h</itemPath>
+        </logicalFolder>
+        <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/Config/CompilerConfig.h</itemPath>
+        <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/Config/Config.h</itemPath>
+        <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/Config/FunctionMacro.h</itemPath>
+        <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/Config/PlatformConfig.h</itemPath>
+        <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/Config/StdLibConfig.h</itemPath>
+        <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/Config/Suffix.h</itemPath>
+        <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/Config/UserConfig.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="HttpAccess" displayName="HttpAccess" projectFiles="true">
+        <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/HttpAccess/HttpAccess.h</itemPath>
+        <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/HttpAccess/HttpAccessAuxiliaryStrcut.h</itemPath>
+        <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/HttpAccess/HttpAccessConfig.h</itemPath>
+        <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/HttpAccess/HttpAccessError.h</itemPath>
+        <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/HttpAccess/HttpAccessUtils.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="Log" displayName="Log" projectFiles="true">
+        <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/Log/Log.h</itemPath>
+        <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/Log/LogConfig.h</itemPath>
+        <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/Log/LogError.h</itemPath>
+        <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/Log/LogUtils.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="Misc" displayName="Misc" projectFiles="true">
+        <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/Misc/EncodeAndDecode.h</itemPath>
+        <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/Misc/FileDefine.h</itemPath>
+        <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/Misc/Misc.h</itemPath>
+        <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/Misc/MiscConfig.h</itemPath>
+        <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/Misc/TimeStr.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="Qiniu" displayName="Qiniu" projectFiles="true">
+        <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/Qiniu/IHttpSetting.h</itemPath>
+        <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/Qiniu/IQiniuRemoteBatchFiles.h</itemPath>
+        <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/Qiniu/IQiniuRemoteFile.h</itemPath>
+        <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/Qiniu/IQiniuUploadFile.h</itemPath>
+        <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/Qiniu/IThreadProgress.h</itemPath>
+        <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/Qiniu/IUpLoadProgress.h</itemPath>
+        <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/Qiniu/Qiniu.h</itemPath>
+        <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/Qiniu/QiniuConfig.h</itemPath>
+        <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/Qiniu/QiniuError.h</itemPath>
+        <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/Qiniu/QiniuFactory.h</itemPath>
+        <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/Qiniu/QiniuStrcut.h</itemPath>
+        <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/Qiniu/QiniuUtils.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="WorkThread" displayName="WorkThread" projectFiles="true">
+        <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/WorkThread/IThreadControl.h</itemPath>
+        <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/WorkThread/IThreadResponsePoints.h</itemPath>
+        <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/WorkThread/WorkThread.h</itemPath>
+        <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/WorkThread/WorkThreadBaseClass.h</itemPath>
+        <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/WorkThread/WorkThreadConfig.h</itemPath>
+        <itemPath>/home/wxt/Desktop/QiniuC++SDK/include/WorkThread/WorkThreadError.h</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="HttpAccess" displayName="HttpAccess" projectFiles="true">
+        <logicalFolder name="Curl" displayName="Curl" projectFiles="true">
+          <itemPath>../../../src/HttpAccess/Curl/CurlHttpBaseClass.cpp</itemPath>
+          <itemPath>../../../src/HttpAccess/Curl/CurlHttpBaseClass.h</itemPath>
+          <itemPath>../../../src/HttpAccess/Curl/CurlHttpGetBase.cpp</itemPath>
+          <itemPath>../../../src/HttpAccess/Curl/CurlHttpGetBase.h</itemPath>
+          <itemPath>../../../src/HttpAccess/Curl/CurlHttpPostBase.cpp</itemPath>
+          <itemPath>../../../src/HttpAccess/Curl/CurlHttpPostBase.h</itemPath>
+          <itemPath>../../../src/HttpAccess/Curl/CurlHttpPutBase.cpp</itemPath>
+          <itemPath>../../../src/HttpAccess/Curl/CurlHttpPutBase.h</itemPath>
+          <itemPath>../../../src/HttpAccess/Curl/CurlWrapperClass.cpp</itemPath>
+          <itemPath>../../../src/HttpAccess/Curl/CurlWrapperClass.h</itemPath>
+          <itemPath>../../../src/HttpAccess/Curl/CurlWrapperConfig.h</itemPath>
+        </logicalFolder>
+        <itemPath>../../../src/HttpAccess/HttpAccessAuxiliaryStrcut.cpp</itemPath>
+        <itemPath>../../../src/HttpAccess/HttpAccessUtils.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="Log" displayName="Log" projectFiles="true">
+        <itemPath>../../../src/Log/LogUtils.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="Misc" displayName="Misc" projectFiles="true">
+        <itemPath>../../../src/Misc/EncodeAndDecode.cpp</itemPath>
+        <itemPath>../../../src/Misc/FileDefine.cpp</itemPath>
+        <itemPath>../../../src/Misc/TimeStr.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="Qiniu" displayName="Qiniu" projectFiles="true">
+        <logicalFolder name="Http" displayName="Http" projectFiles="true">
+          <itemPath>../../../src/Qiniu/Http/QiniuCurlGet.cpp</itemPath>
+          <itemPath>../../../src/Qiniu/Http/QiniuCurlGet.h</itemPath>
+          <itemPath>../../../src/Qiniu/Http/QiniuCurlPost.cpp</itemPath>
+          <itemPath>../../../src/Qiniu/Http/QiniuCurlPost.h</itemPath>
+          <itemPath>../../../src/Qiniu/Http/QiniuCurlPostForm.cpp</itemPath>
+          <itemPath>../../../src/Qiniu/Http/QiniuCurlPostForm.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="Impl" displayName="Impl" projectFiles="true">
+          <logicalFolder name="b64" displayName="b64" projectFiles="true">
+            <itemPath>../../../src/Qiniu/Impl/b64/b64.c</itemPath>
+            <itemPath>../../../src/Qiniu/Impl/b64/b64.h</itemPath>
+            <itemPath>../../../src/Qiniu/Impl/b64/urlsafe_b64.c</itemPath>
+            <itemPath>../../../src/Qiniu/Impl/b64/urlsafe_b64.h</itemPath>
+          </logicalFolder>
+          <itemPath>../../../src/Qiniu/Impl/IUpLoadProgressDecoration.cpp</itemPath>
+          <itemPath>../../../src/Qiniu/Impl/IUpLoadProgressDecoration.h</itemPath>
+          <itemPath>../../../src/Qiniu/Impl/QiniuMisc.cpp</itemPath>
+          <itemPath>../../../src/Qiniu/Impl/QiniuMisc.h</itemPath>
+          <itemPath>../../../src/Qiniu/Impl/QiniuRemoteBatchFilesImpl.cpp</itemPath>
+          <itemPath>../../../src/Qiniu/Impl/QiniuRemoteBatchFilesImpl.h</itemPath>
+          <itemPath>../../../src/Qiniu/Impl/QiniuRemoteFileImpl.cpp</itemPath>
+          <itemPath>../../../src/Qiniu/Impl/QiniuRemoteFileImpl.h</itemPath>
+          <itemPath>../../../src/Qiniu/Impl/QiniuUploadFileImpl.cpp</itemPath>
+          <itemPath>../../../src/Qiniu/Impl/QiniuUploadFileImpl.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="Json" displayName="Json" projectFiles="true">
+          <itemPath>../../../src/Qiniu/Json/json-forwards.h</itemPath>
+          <itemPath>../../../src/Qiniu/Json/json.h</itemPath>
+          <itemPath>../../../src/Qiniu/Json/jsoncpp.cpp</itemPath>
+        </logicalFolder>
+        <itemPath>../../../src/Qiniu/QiniuDestoryFunction.cpp</itemPath>
+        <itemPath>../../../src/Qiniu/QiniuFactory.cpp</itemPath>
+        <itemPath>../../../src/Qiniu/QiniuInternalConfig.h</itemPath>
+        <itemPath>../../../src/Qiniu/QiniuStrcut.cpp</itemPath>
+        <itemPath>../../../src/Qiniu/QiniuUtils.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="WorkThread" displayName="WorkThread" projectFiles="true">
+        <itemPath>../../../src/WorkThread/IDestoryFunction.cpp</itemPath>
+        <itemPath>../../../src/WorkThread/WorkThreadBaseClass.cpp</itemPath>
+      </logicalFolder>
+      <itemPath>../../../src/WindowsDllMain.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>../../../src</Elem>
+    <Elem>/home/wxt/Desktop/QiniuC++SDK/include</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="2">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <incDir>
+            <pElem>../../../include</pElem>
+          </incDir>
+        </ccTool>
+      </compileType>
+      <item path="../../../src/HttpAccess/Curl/CurlHttpBaseClass.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../src/HttpAccess/Curl/CurlHttpBaseClass.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/HttpAccess/Curl/CurlHttpGetBase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../src/HttpAccess/Curl/CurlHttpGetBase.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/HttpAccess/Curl/CurlHttpPostBase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../src/HttpAccess/Curl/CurlHttpPostBase.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/HttpAccess/Curl/CurlHttpPutBase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../src/HttpAccess/Curl/CurlHttpPutBase.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/HttpAccess/Curl/CurlWrapperClass.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../src/HttpAccess/Curl/CurlWrapperClass.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/HttpAccess/Curl/CurlWrapperConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/HttpAccess/HttpAccessAuxiliaryStrcut.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../src/HttpAccess/HttpAccessUtils.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../src/Log/LogUtils.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../src/Misc/EncodeAndDecode.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../src/Misc/FileDefine.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../src/Misc/TimeStr.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/Http/QiniuCurlGet.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/Http/QiniuCurlGet.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/Http/QiniuCurlPost.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/Http/QiniuCurlPost.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/Http/QiniuCurlPostForm.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/Http/QiniuCurlPostForm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/Impl/IUpLoadProgressDecoration.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/Impl/IUpLoadProgressDecoration.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/Impl/QiniuMisc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/Impl/QiniuMisc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/Impl/QiniuRemoteBatchFilesImpl.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/Impl/QiniuRemoteBatchFilesImpl.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/Impl/QiniuRemoteFileImpl.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/Impl/QiniuRemoteFileImpl.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/Impl/QiniuUploadFileImpl.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/Impl/QiniuUploadFileImpl.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/Impl/b64/b64.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/Impl/b64/b64.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/Impl/b64/urlsafe_b64.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/Impl/b64/urlsafe_b64.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/Json/json-forwards.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/Json/json.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/Json/jsoncpp.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/QiniuDestoryFunction.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/QiniuFactory.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/QiniuInternalConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/QiniuStrcut.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/QiniuUtils.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../src/WindowsDllMain.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../src/WorkThread/IDestoryFunction.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../src/WorkThread/WorkThreadBaseClass.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Config/Compiler/ClangConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Config/Compiler/EdgConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Config/Compiler/GccConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Config/Compiler/IntelCppConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Config/Compiler/MSVCConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Config/CompilerConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Config/Config.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Config/FunctionMacro.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Config/Platform/AndroidConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Config/Platform/CygwinConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Config/Platform/LinuxConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Config/Platform/MacOSConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Config/Platform/OS32or64Bits.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Config/Platform/POSIXConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Config/Platform/Win32Config.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Config/PlatformConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Config/StdLib/LibCppConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Config/StdLib/LibDinkumwareConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Config/StdLib/LibStdCppConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Config/StdLib/STLPortConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Config/StdLibConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Config/Suffix.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Config/UserConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/HttpAccess/HttpAccess.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/HttpAccess/HttpAccessAuxiliaryStrcut.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/HttpAccess/HttpAccessConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/HttpAccess/HttpAccessError.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/HttpAccess/HttpAccessUtils.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Log/Log.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Log/LogConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Log/LogError.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Log/LogUtils.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Misc/EncodeAndDecode.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Misc/FileDefine.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Misc/Misc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Misc/MiscConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Misc/TimeStr.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Qiniu/IHttpSetting.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Qiniu/IQiniuRemoteBatchFiles.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Qiniu/IQiniuRemoteFile.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Qiniu/IQiniuUploadFile.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Qiniu/IThreadProgress.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Qiniu/IUpLoadProgress.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Qiniu/Qiniu.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Qiniu/QiniuConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Qiniu/QiniuError.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Qiniu/QiniuFactory.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Qiniu/QiniuStrcut.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Qiniu/QiniuUtils.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/WorkThread/IThreadControl.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/WorkThread/IThreadResponsePoints.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/WorkThread/WorkThread.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/WorkThread/WorkThreadBaseClass.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/WorkThread/WorkThreadConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/WorkThread/WorkThreadError.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="2">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <incDir>
+            <pElem>../../../include</pElem>
+          </incDir>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="../../../src/HttpAccess/Curl/CurlHttpBaseClass.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../src/HttpAccess/Curl/CurlHttpBaseClass.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/HttpAccess/Curl/CurlHttpGetBase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../src/HttpAccess/Curl/CurlHttpGetBase.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/HttpAccess/Curl/CurlHttpPostBase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../src/HttpAccess/Curl/CurlHttpPostBase.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/HttpAccess/Curl/CurlHttpPutBase.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../src/HttpAccess/Curl/CurlHttpPutBase.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/HttpAccess/Curl/CurlWrapperClass.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../src/HttpAccess/Curl/CurlWrapperClass.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/HttpAccess/Curl/CurlWrapperConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/HttpAccess/HttpAccessAuxiliaryStrcut.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../src/HttpAccess/HttpAccessUtils.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../src/Log/LogUtils.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../src/Misc/EncodeAndDecode.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../src/Misc/FileDefine.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../src/Misc/TimeStr.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/Http/QiniuCurlGet.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/Http/QiniuCurlGet.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/Http/QiniuCurlPost.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/Http/QiniuCurlPost.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/Http/QiniuCurlPostForm.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/Http/QiniuCurlPostForm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/Impl/IUpLoadProgressDecoration.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/Impl/IUpLoadProgressDecoration.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/Impl/QiniuMisc.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/Impl/QiniuMisc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/Impl/QiniuRemoteBatchFilesImpl.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/Impl/QiniuRemoteBatchFilesImpl.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/Impl/QiniuRemoteFileImpl.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/Impl/QiniuRemoteFileImpl.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/Impl/QiniuUploadFileImpl.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/Impl/QiniuUploadFileImpl.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/Impl/b64/b64.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/Impl/b64/b64.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/Impl/b64/urlsafe_b64.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/Impl/b64/urlsafe_b64.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/Json/json-forwards.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/Json/json.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/Json/jsoncpp.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/QiniuDestoryFunction.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/QiniuFactory.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/QiniuInternalConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/QiniuStrcut.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../src/Qiniu/QiniuUtils.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../src/WindowsDllMain.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../../../src/WorkThread/IDestoryFunction.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../../../src/WorkThread/WorkThreadBaseClass.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Config/Compiler/ClangConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Config/Compiler/EdgConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Config/Compiler/GccConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Config/Compiler/IntelCppConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Config/Compiler/MSVCConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Config/CompilerConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Config/Config.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Config/FunctionMacro.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Config/Platform/AndroidConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Config/Platform/CygwinConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Config/Platform/LinuxConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Config/Platform/MacOSConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Config/Platform/OS32or64Bits.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Config/Platform/POSIXConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Config/Platform/Win32Config.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Config/PlatformConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Config/StdLib/LibCppConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Config/StdLib/LibDinkumwareConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Config/StdLib/LibStdCppConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Config/StdLib/STLPortConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Config/StdLibConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Config/Suffix.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Config/UserConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/HttpAccess/HttpAccess.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/HttpAccess/HttpAccessAuxiliaryStrcut.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/HttpAccess/HttpAccessConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/HttpAccess/HttpAccessError.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/HttpAccess/HttpAccessUtils.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Log/Log.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Log/LogConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Log/LogError.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Log/LogUtils.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Misc/EncodeAndDecode.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Misc/FileDefine.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Misc/Misc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Misc/MiscConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Misc/TimeStr.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Qiniu/IHttpSetting.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Qiniu/IQiniuRemoteBatchFiles.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Qiniu/IQiniuRemoteFile.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Qiniu/IQiniuUploadFile.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Qiniu/IThreadProgress.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Qiniu/IUpLoadProgress.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Qiniu/Qiniu.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Qiniu/QiniuConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Qiniu/QiniuError.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Qiniu/QiniuFactory.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Qiniu/QiniuStrcut.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/Qiniu/QiniuUtils.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/WorkThread/IThreadControl.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/WorkThread/IThreadResponsePoints.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/WorkThread/WorkThread.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/WorkThread/WorkThreadBaseClass.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/WorkThread/WorkThreadConfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/wxt/Desktop/QiniuC++SDK/include/WorkThread/WorkThreadError.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

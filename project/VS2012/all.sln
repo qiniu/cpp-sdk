@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qiniu", "qiniu.vcxproj", "{3A1D5FD3-668F-428F-9B88-5F7AD5431DCF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qiniuUnitTest", "qiniuUnitTest.vcxproj", "{58DA1BB2-9198-4487-99EC-C47E7AE07C79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A1D5FD3-668F-428F-9B88-5F7AD5431DCF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3A1D5FD3-668F-428F-9B88-5F7AD5431DCF}.Debug|Win32.Build.0 = Debug|Win32
+		{3A1D5FD3-668F-428F-9B88-5F7AD5431DCF}.Debug|x64.ActiveCfg = Debug|x64
+		{3A1D5FD3-668F-428F-9B88-5F7AD5431DCF}.Debug|x64.Build.0 = Debug|x64
+		{3A1D5FD3-668F-428F-9B88-5F7AD5431DCF}.Release|Win32.ActiveCfg = Release|Win32
+		{3A1D5FD3-668F-428F-9B88-5F7AD5431DCF}.Release|Win32.Build.0 = Release|Win32
+		{3A1D5FD3-668F-428F-9B88-5F7AD5431DCF}.Release|x64.ActiveCfg = Release|x64
+		{3A1D5FD3-668F-428F-9B88-5F7AD5431DCF}.Release|x64.Build.0 = Release|x64
+		{58DA1BB2-9198-4487-99EC-C47E7AE07C79}.Debug|Win32.ActiveCfg = Debug|Win32
+		{58DA1BB2-9198-4487-99EC-C47E7AE07C79}.Debug|Win32.Build.0 = Debug|Win32
+		{58DA1BB2-9198-4487-99EC-C47E7AE07C79}.Debug|x64.ActiveCfg = Debug|x64
+		{58DA1BB2-9198-4487-99EC-C47E7AE07C79}.Debug|x64.Build.0 = Debug|x64
+		{58DA1BB2-9198-4487-99EC-C47E7AE07C79}.Release|Win32.ActiveCfg = Release|Win32
+		{58DA1BB2-9198-4487-99EC-C47E7AE07C79}.Release|Win32.Build.0 = Release|Win32
+		{58DA1BB2-9198-4487-99EC-C47E7AE07C79}.Release|x64.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

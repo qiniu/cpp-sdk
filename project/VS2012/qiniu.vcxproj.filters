@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Misc">
+      <UniqueIdentifier>{5f1d62d3-1a75-4147-bb74-df58373cb0e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Misc">
+      <UniqueIdentifier>{39f9a321-8a2a-4cdd-9a49-0adf8cd353f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\HttpAccess">
+      <UniqueIdentifier>{ba5cdf5c-339b-4cad-81d1-8228d42dd53e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HttpAccess">
+      <UniqueIdentifier>{6df9fca2-1fda-4c98-9104-a8a2d628832f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HttpAccess\Curl">
+      <UniqueIdentifier>{cd38e445-56d9-45a1-9a0d-4d7e3f9e4bef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\WorkThread">
+      <UniqueIdentifier>{f9652f9e-e66f-4df3-85ab-7c9dd55192e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WorkThread">
+      <UniqueIdentifier>{7355b6f6-febb-4291-97db-c89768e29204}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Qiniu">
+      <UniqueIdentifier>{e3d718bf-1d62-4932-ad5c-0f8b498fb5f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Qiniu">
+      <UniqueIdentifier>{85c1743b-2689-4a82-bcf8-afd4316d38e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Qiniu\Http">
+      <UniqueIdentifier>{749db321-b680-4ee3-b151-bdc1b13406c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Qiniu\Impl">
+      <UniqueIdentifier>{940dcced-6894-47d9-800a-51f098ff4f96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Qiniu\Impl\b64">
+      <UniqueIdentifier>{2a51a67b-ba9e-4019-b888-95c33559e221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Config">
+      <UniqueIdentifier>{b553f731-e77a-4b8c-92f4-88e63b8d7e21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Config\Compiler">
+      <UniqueIdentifier>{6e689734-282b-40fc-a600-9481d43c52c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Config\Platform">
+      <UniqueIdentifier>{43161fd9-281a-4d23-a907-562586db4068}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Config\StdLib">
+      <UniqueIdentifier>{1a209892-1500-4bc9-9206-0596e16a7964}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Log">
+      <UniqueIdentifier>{68e0f575-e167-4d6a-802c-5badf0a1e942}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Log">
+      <UniqueIdentifier>{1ccab321-5daa-44a3-948e-ae22e24e0660}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Qiniu\Json">
+      <UniqueIdentifier>{d7b5f3bd-a74f-4d8c-8a47-e08805dfd9d7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\Misc\EncodeAndDecode.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Misc\FileDefine.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\HttpAccess\HttpAccessAuxiliaryStrcut.cpp">
+      <Filter>Source Files\HttpAccess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\HttpAccess\HttpAccessUtils.cpp">
+      <Filter>Source Files\HttpAccess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\HttpAccess\Curl\CurlHttpBaseClass.cpp">
+      <Filter>Source Files\HttpAccess\Curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\HttpAccess\Curl\CurlHttpGetBase.cpp">
+      <Filter>Source Files\HttpAccess\Curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\HttpAccess\Curl\CurlHttpPostBase.cpp">
+      <Filter>Source Files\HttpAccess\Curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\HttpAccess\Curl\CurlHttpPutBase.cpp">
+      <Filter>Source Files\HttpAccess\Curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\HttpAccess\Curl\CurlWrapperClass.cpp">
+      <Filter>Source Files\HttpAccess\Curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\WorkThread\IDestoryFunction.cpp">
+      <Filter>Source Files\WorkThread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\WorkThread\WorkThreadBaseClass.cpp">
+      <Filter>Source Files\WorkThread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\WindowsDllMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Qiniu\Http\QiniuCurlPost.cpp">
+      <Filter>Source Files\Qiniu\Http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Qiniu\Http\QiniuCurlGet.cpp">
+      <Filter>Source Files\Qiniu\Http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Qiniu\Http\QiniuCurlPostForm.cpp">
+      <Filter>Source Files\Qiniu\Http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Qiniu\QiniuUtils.cpp">
+      <Filter>Source Files\Qiniu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Qiniu\QiniuStrcut.cpp">
+      <Filter>Source Files\Qiniu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Qiniu\QiniuFactory.cpp">
+      <Filter>Source Files\Qiniu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Qiniu\Impl\QiniuRemoteFileImpl.cpp">
+      <Filter>Source Files\Qiniu\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Qiniu\QiniuDestoryFunction.cpp">
+      <Filter>Source Files\Qiniu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Qiniu\Impl\b64\b64.c">
+      <Filter>Source Files\Qiniu\Impl\b64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Qiniu\Impl\b64\urlsafe_b64.c">
+      <Filter>Source Files\Qiniu\Impl\b64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Qiniu\Impl\QiniuMisc.cpp">
+      <Filter>Source Files\Qiniu\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Qiniu\Impl\QiniuRemoteBatchFilesImpl.cpp">
+      <Filter>Source Files\Qiniu\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Log\LogUtils.cpp">
+      <Filter>Source Files\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Misc\TimeStr.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Qiniu\Json\jsoncpp.cpp">
+      <Filter>Source Files\Qiniu\Json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Qiniu\Impl\IUpLoadProgressDecoration.cpp">
+      <Filter>Source Files\Qiniu\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Qiniu\Impl\QiniuUploadFileImpl.cpp">
+      <Filter>Source Files\Qiniu\Impl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\Misc\EncodeAndDecode.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Misc\Misc.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Misc\MiscConfig.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Config\CompilerConfig.h">
+      <Filter>Header Files\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Config\Config.h">
+      <Filter>Header Files\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Config\FunctionMacro.h">
+      <Filter>Header Files\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Config\PlatformConfig.h">
+      <Filter>Header Files\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Config\StdLibConfig.h">
+      <Filter>Header Files\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Config\Suffix.h">
+      <Filter>Header Files\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Config\UserConfig.h">
+      <Filter>Header Files\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Config\Compiler\ClangConfig.h">
+      <Filter>Header Files\Config\Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Config\Compiler\EdgConfig.h">
+      <Filter>Header Files\Config\Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Config\Compiler\GccConfig.h">
+      <Filter>Header Files\Config\Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Config\Compiler\IntelCppConfig.h">
+      <Filter>Header Files\Config\Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Config\Compiler\MSVCConfig.h">
+      <Filter>Header Files\Config\Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Config\Platform\AndroidConfig.h">
+      <Filter>Header Files\Config\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Config\Platform\CygwinConfig.h">
+      <Filter>Header Files\Config\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Config\Platform\LinuxConfig.h">
+      <Filter>Header Files\Config\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Config\Platform\MacOSConfig.h">
+      <Filter>Header Files\Config\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Config\Platform\OS32or64Bits.h">
+      <Filter>Header Files\Config\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Config\Platform\POSIXConfig.h">
+      <Filter>Header Files\Config\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Config\Platform\Win32Config.h">
+      <Filter>Header Files\Config\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Config\StdLib\LibCppConfig.h">
+      <Filter>Header Files\Config\StdLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Config\StdLib\LibDinkumwareConfig.h">
+      <Filter>Header Files\Config\StdLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Config\StdLib\LibStdCppConfig.h">
+      <Filter>Header Files\Config\StdLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Config\StdLib\STLPortConfig.h">
+      <Filter>Header Files\Config\StdLib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Misc\FileDefine.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\HttpAccess\HttpAccess.h">
+      <Filter>Header Files\HttpAccess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\HttpAccess\HttpAccessAuxiliaryStrcut.h">
+      <Filter>Header Files\HttpAccess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\HttpAccess\HttpAccessConfig.h">
+      <Filter>Header Files\HttpAccess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\HttpAccess\HttpAccessError.h">
+      <Filter>Header Files\HttpAccess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\HttpAccess\HttpAccessUtils.h">
+      <Filter>Header Files\HttpAccess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\HttpAccess\Curl\CurlHttpBaseClass.h">
+      <Filter>Source Files\HttpAccess\Curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\HttpAccess\Curl\CurlHttpGetBase.h">
+      <Filter>Source Files\HttpAccess\Curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\HttpAccess\Curl\CurlHttpPostBase.h">
+      <Filter>Source Files\HttpAccess\Curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\HttpAccess\Curl\CurlHttpPutBase.h">
+      <Filter>Source Files\HttpAccess\Curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\HttpAccess\Curl\CurlWrapperClass.h">
+      <Filter>Source Files\HttpAccess\Curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\HttpAccess\Curl\CurlWrapperConfig.h">
+      <Filter>Source Files\HttpAccess\Curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\WorkThread\IThreadControl.h">
+      <Filter>Header Files\WorkThread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\WorkThread\IThreadResponsePoints.h">
+      <Filter>Header Files\WorkThread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\WorkThread\WorkThread.h">
+      <Filter>Header Files\WorkThread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\WorkThread\WorkThreadBaseClass.h">
+      <Filter>Header Files\WorkThread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\WorkThread\WorkThreadConfig.h">
+      <Filter>Header Files\WorkThread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\WorkThread\WorkThreadError.h">
+      <Filter>Header Files\WorkThread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Qiniu\QiniuConfig.h">
+      <Filter>Header Files\Qiniu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Qiniu\Qiniu.h">
+      <Filter>Header Files\Qiniu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Qiniu\QiniuInternalConfig.h">
+      <Filter>Source Files\Qiniu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Qiniu\Http\QiniuCurlPost.h">
+      <Filter>Source Files\Qiniu\Http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Qiniu\Http\QiniuCurlGet.h">
+      <Filter>Source Files\Qiniu\Http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Qiniu\Http\QiniuCurlPostForm.h">
+      <Filter>Source Files\Qiniu\Http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Qiniu\QiniuUtils.h">
+      <Filter>Header Files\Qiniu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Qiniu\QiniuError.h">
+      <Filter>Header Files\Qiniu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Qiniu\QiniuStrcut.h">
+      <Filter>Header Files\Qiniu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Qiniu\IHttpSetting.h">
+      <Filter>Header Files\Qiniu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Qiniu\IQiniuRemoteFile.h">
+      <Filter>Header Files\Qiniu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Qiniu\QiniuFactory.h">
+      <Filter>Header Files\Qiniu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Qiniu\Impl\QiniuRemoteFileImpl.h">
+      <Filter>Source Files\Qiniu\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Qiniu\Impl\b64\b64.h">
+      <Filter>Source Files\Qiniu\Impl\b64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Qiniu\Impl\b64\urlsafe_b64.h">
+      <Filter>Source Files\Qiniu\Impl\b64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Qiniu\Impl\QiniuMisc.h">
+      <Filter>Source Files\Qiniu\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Qiniu\IQiniuRemoteBatchFiles.h">
+      <Filter>Header Files\Qiniu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Qiniu\Impl\QiniuRemoteBatchFilesImpl.h">
+      <Filter>Source Files\Qiniu\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Qiniu\IUpLoadProgress.h">
+      <Filter>Header Files\Qiniu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Qiniu\IThreadProgress.h">
+      <Filter>Header Files\Qiniu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Log\LogConfig.h">
+      <Filter>Header Files\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Log\LogUtils.h">
+      <Filter>Header Files\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Log\Log.h">
+      <Filter>Header Files\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Log\LogError.h">
+      <Filter>Header Files\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\Misc\TimeStr.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Qiniu\Json\json.h">
+      <Filter>Source Files\Qiniu\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Qiniu\Json\json-forwards.h">
+      <Filter>Source Files\Qiniu\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Qiniu\Impl\IUpLoadProgressDecoration.h">
+      <Filter>Source Files\Qiniu\Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Qiniu\Impl\QiniuUploadFileImpl.h">
+      <Filter>Source Files\Qiniu\Impl</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
