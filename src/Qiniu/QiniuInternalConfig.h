@@ -51,8 +51,8 @@ QINIU_NAMESPACE_BEGIN
     const std::string HTTP_QINIU_RSF_HOST    ("http://rsf.qbox.me");
     const std::string HTTPS_QINIU_RSF_HOST   ("https://rsf.qbox.me");
 
-    const std::string HTTP_QINIU_UP_HOST    ("http://up.qiniu.com");
-    const std::string HTTPS_QINIU_UP_HOST   ("https://up.qiniu.com");
+    const std::string HTTP_QINIU_UP_HOST    ("http://upload.qiniu.com");
+    const std::string HTTPS_QINIU_UP_HOST   ("https://up.qbox.me");
 
 #endif
 QINIU_NAMESPACE_END
